@@ -265,7 +265,7 @@ packages:
     resolution: {integrity: sha512-oWNn1ZlGde7b4i/3tnixpH9qI0bOAACiUs+KEES4UUCnsPjVWFlWdLV/iwJuPC2qp3EowbAqsm+0XqNwnwYhxA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      core-js-pure: 3.25.5
+      core-js-pure: 3.26.0
       regenerator-runtime: 0.13.10
     dev: false
 
@@ -820,8 +820,8 @@ packages:
   /convert-source-map/1.9.0:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
 
-  /core-js-pure/3.25.5:
-    resolution: {integrity: sha512-oml3M22pHM+igfWHDfdLVq2ShWmjM2V4L+dQEBs0DWVIqEm9WHCwGAlZ6BmyBQGy5sFrJmcx+856D9lVKyGWYg==}
+  /core-js-pure/3.26.0:
+    resolution: {integrity: sha512-LiN6fylpVBVwT8twhhluD9TzXmZQQsr2I2eIKtWNbZI1XMfBT7CV18itaN6RA7EtQd/SDdRx/wzvAShX2HvhQA==}
     requiresBuild: true
     dev: false
 
