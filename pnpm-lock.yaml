@@ -34,7 +34,7 @@ importers:
     devDependencies:
       '@babel/core': 7.20.5
       '@types/node': 17.0.45
-      '@types/react': 18.0.25
+      '@types/react': 18.0.26
       '@types/react-dom': 18.0.9
       eslint: 7.32.0
       eslint-config-custom: link:../../packages/eslint-config-custom
@@ -63,7 +63,7 @@ importers:
     devDependencies:
       '@babel/core': 7.20.5
       '@types/node': 17.0.45
-      '@types/react': 18.0.25
+      '@types/react': 18.0.26
       '@types/react-dom': 18.0.9
       eslint: 7.32.0
       eslint-config-custom: link:../../packages/eslint-config-custom
@@ -100,7 +100,7 @@ importers:
       tsconfig: workspace:*
       typescript: ^4.5.2
     devDependencies:
-      '@types/react': 18.0.25
+      '@types/react': 18.0.26
       '@types/react-dom': 18.0.9
       eslint: 7.32.0
       eslint-config-custom: link:../eslint-config-custom
@@ -515,7 +515,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
-      fastq: 1.13.0
+      fastq: 1.14.0
     dev: false
 
   /@rushstack/eslint-patch/1.2.0:
@@ -543,11 +543,11 @@ packages:
   /@types/react-dom/18.0.9:
     resolution: {integrity: sha512-qnVvHxASt/H7i+XG1U1xMiY5t+IHcPGUK7TDMDzom08xa7e86eCeKOiLZezwCKVxJn6NEiiy2ekgX8aQssjIKg==}
     dependencies:
-      '@types/react': 18.0.25
+      '@types/react': 18.0.26
     dev: true
 
-  /@types/react/18.0.25:
-    resolution: {integrity: sha512-xD6c0KDT4m7n9uD4ZHi02lzskaiqcBxf4zi+tXZY98a04wvc0hi/TcCPC2FOESZi51Nd7tlUeOJY8RofL799/g==}
+  /@types/react/18.0.26:
+    resolution: {integrity: sha512-hCR3PJQsAIXyxhTNSiDFY//LhnMZWpNNr5etoCqx/iUfGc5gXWtQR2Phl908jVR6uPXacojQWTg4qRpkxTuGug==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -1298,8 +1298,8 @@ packages:
   /fast-levenshtein/2.0.6:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
 
-  /fastq/1.13.0:
-    resolution: {integrity: sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==}
+  /fastq/1.14.0:
+    resolution: {integrity: sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==}
     dependencies:
       reusify: 1.0.4
     dev: false
