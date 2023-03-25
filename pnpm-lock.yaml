@@ -9,7 +9,7 @@ importers:
       turbo: latest
     devDependencies:
       eslint-config-custom: link:packages/eslint-config-custom
-      prettier: 2.8.6
+      prettier: 2.8.7
       turbo: 1.8.5
 
   apps/docs:
@@ -34,7 +34,7 @@ importers:
     devDependencies:
       '@babel/core': 7.21.3
       '@types/node': 17.0.45
-      '@types/react': 18.0.28
+      '@types/react': 18.0.29
       '@types/react-dom': 18.0.11
       eslint: 7.32.0
       eslint-config-custom: link:../../packages/eslint-config-custom
@@ -63,7 +63,7 @@ importers:
     devDependencies:
       '@babel/core': 7.21.3
       '@types/node': 17.0.45
-      '@types/react': 18.0.28
+      '@types/react': 18.0.29
       '@types/react-dom': 18.0.11
       eslint: 7.32.0
       eslint-config-custom: link:../../packages/eslint-config-custom
@@ -100,7 +100,7 @@ importers:
       tsconfig: workspace:*
       typescript: ^4.5.2
     devDependencies:
-      '@types/react': 18.0.28
+      '@types/react': 18.0.29
       '@types/react-dom': 18.0.11
       eslint: 7.32.0
       eslint-config-custom: link:../eslint-config-custom
@@ -537,11 +537,11 @@ packages:
   /@types/react-dom/18.0.11:
     resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
     dependencies:
-      '@types/react': 18.0.28
+      '@types/react': 18.0.29
     dev: true
 
-  /@types/react/18.0.28:
-    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
+  /@types/react/18.0.29:
+    resolution: {integrity: sha512-wXHktgUABxplw1+UnljseDq4+uztQyp2tlWZRIxHlpchsCFqiYkvaDS8JR7eKOQm8wziTH/el5qL7D6gYNkYcw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -762,7 +762,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001469
-      electron-to-chromium: 1.4.338
+      electron-to-chromium: 1.4.340
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
 
@@ -913,8 +913,8 @@ packages:
     dependencies:
       esutils: 2.0.3
 
-  /electron-to-chromium/1.4.338:
-    resolution: {integrity: sha512-Kfq90LFsNtGOwCZJ77XQa2fSuGQVlEBIGqiccfXxkoYTe5o79dE/9GMXR2R9OWjKGFfRVX4GHYxeCUyA8mRJlw==}
+  /electron-to-chromium/1.4.340:
+    resolution: {integrity: sha512-zx8hqumOqltKsv/MF50yvdAlPF9S/4PXbyfzJS6ZGhbddGkRegdwImmfSVqCkEziYzrIGZ/TlrzBND4FysfkDg==}
 
   /emoji-regex/8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2018,8 +2018,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  /prettier/2.8.6:
-    resolution: {integrity: sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
