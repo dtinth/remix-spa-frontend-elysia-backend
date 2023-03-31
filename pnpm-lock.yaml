@@ -738,8 +738,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  /caniuse-lite@1.0.30001472:
-    resolution: {integrity: sha512-xWC/0+hHHQgj3/vrKYY0AAzeIUgr7L9wlELIcAvZdDUHlhL/kNxMdnQLOSOQfP8R51ZzPhmHdyMkI0MMpmxCfg==}
+  /caniuse-lite@1.0.30001473:
+    resolution: {integrity: sha512-ewDad7+D2vlyy+E4UJuVfiBsU69IL+8oVmTuZnH5Q6CIUbxNfI50uVpRHbUPDD6SUaN2o0Lh4DhTrvLG/Tn1yg==}
     dev: false
 
   /chalk@2.4.2:
@@ -1805,7 +1805,7 @@ packages:
     dependencies:
       '@next/env': 13.1.1
       '@swc/helpers': 0.4.14
-      caniuse-lite: 1.0.30001472
+      caniuse-lite: 1.0.30001473
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
