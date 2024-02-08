@@ -12,10 +12,12 @@
   },
   "dependencies": {
     "@elysiajs/cors": "1.0.0-beta.0",
+    "@remix-run/express": "^2.6.0",
     "@remix-run/node": "^2.6.0",
     "@remix-run/react": "^2.6.0",
     "@remix-run/serve": "^2.6.0",
     "elysia": "1.0.0-beta.1",
+    "express": "^4.18.2",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
