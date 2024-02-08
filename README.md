@@ -11,3 +11,13 @@ Demonstration of a web project with:
 - **Backend: Elysia on Remix.** Server-side code is built with Elysia which comes with built-in type validation and end-to-end type safety. An Elysia app is mounted on a server-side Remix app (which provides hot module reloading during development and bundling for production).
 
 - **Testing: Playwright.** [Black-box testing](https://www.youtube.com/watch?v=vbIWSwz8NxQ) lets us ensure the application works as expected while being agnostic to the implementation details. This lets us refactor the code without breaking the tests.
+
+> [!WARNING]
+>
+> This project uses several stuff that, as of writing in 2024-02-09, are still in beta or unstable:
+>
+> - [Elysia 1.0 beta](https://github.com/elysiajs/elysia/pull/465)
+> - [Remix Vite](https://remix.run/docs/en/main/future/vite)
+> - [Remix SPA mode](https://remix.run/docs/en/main/future/spa-mode)
+>
+> I have a bit of hunch that this could be my preferred stack once they are stable, but for now, this is just a proof of concept. We'll see how it goes.
