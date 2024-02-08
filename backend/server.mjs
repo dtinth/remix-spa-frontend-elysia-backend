@@ -4,6 +4,6 @@ import express from "express";
 
 express()
   .use(createRequestHandler({ build }))
-  .listen(3000, () => {
-    console.log(`Server listening on http://localhost:3000`);
+  .listen(41682, () => {
+    console.log(`Server listening on port 41682`);
   });
