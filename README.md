@@ -2,15 +2,15 @@
 
 Demonstration of a web project with:
 
-- **Monorepo with Turborepo.** This lets a developer work on both the frontend and backend simply by running `pnpm dev`.
+- **Monorepo with Turborepo.** This lets a developer work on both the frontend and backend by simply running `pnpm dev`.
 
-- **Separated frontend and backend.** The frontend can be deployed to any static file server, and the backend can be deployed to any server that supports Remix/Elysia.
+- **Separated frontend and backend.** The frontend can be deployed to any static site host, and the backend can be deployed to any environment that supports Node.js (example deployment configuration with Vercel is provided, and being Elysia and Remix, with some changes it can be configured to deploy to other runtimes as well, e.g. Cloudflare Workers, Bun, etc).
 
-- **Frontend: Remix (SPA mode).** A single-page app with client-side routing, built with Remix. Since Remix has a built-in solution for client-side queries (via [clientLoader](https://remix.run/docs/en/main/route/client-loader)) and mutations (via [clientAction](https://remix.run/docs/en/main/route/client-action)), no need for `useEffect` or data fetching libraries like React Query ([unless really needed](https://remix.run/docs/en/main/discussion/state-management#understanding-state-management-in-react)). By going 100% client-side, we can avoid all the headaches associated with server-side rendering (SSR). No more hydration mismatches!
+- **Frontend: Remix (SPA mode).** A single-page app with client-side routing, built with Remix. Since Remix has a built-in solution for client-side queries (via [clientLoader](https://remix.run/docs/en/main/route/client-loader)) and mutations (via [clientAction](https://remix.run/docs/en/main/route/client-action)), there is no need for `useEffect` or data fetching libraries like React Query ([unless really needed](https://remix.run/docs/en/main/discussion/state-management#understanding-state-management-in-react)). By going 100% client-side, we can avoid all the headaches associated with server-side rendering (SSR) and we can use any React UI toolkit without worrying about integrating with server-side rendering frameworks. No more hydration mismatches!
 
-- **Backend: Elysia on Remix.** Server-side code is built with Elysia which comes with built-in type validation and end-to-end type safety. An Elysia app is mounted on a server-side Remix app (which provides hot module reloading during development and bundling for production).
+- **Backend: Elysia on Remix.** Server-side code is built with Elysia, which comes with built-in type validation and end-to-end type safety. An Elysia app is mounted on a server-side Remix app (which provides hot module reloading during development and bundling for production).
 
-- **Testing: Playwright.** [Black-box testing](https://www.youtube.com/watch?v=vbIWSwz8NxQ) lets us ensure the application works as expected while being agnostic to the implementation details. This lets us refactor the code without breaking the tests.
+- **Testing: Playwright.** [Black-box testing](https://www.youtube.com/watch?v=vbIWSwz8NxQ) lets us ensure that the application works as expected while being agnostic to the implementation details. This lets us refactor the code without breaking the tests.
 
 > [!WARNING]
 >
