@@ -15,8 +15,11 @@ jobs:
         with:
           node-version: 18
           cache: pnpm
+      - uses: dtinth/setup-github-actions-caching-for-turbo@v1
       - name: Install dependencies
         run: pnpm install
+      - name: Build packages
+        run: pnpm build
       - name: Install Playwright Browsers
         run: pnpm exec playwright install --with-deps
       - name: Run Playwright tests
