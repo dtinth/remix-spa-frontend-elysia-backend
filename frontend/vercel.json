@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "build/client",
+  "rewrites": [
+    {
+      "source": "/.*",
+      "destination": "/"
+    }
+  ]
+}
