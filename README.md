@@ -22,4 +22,4 @@ Demonstration of a web project with:
 >
 > I have a bit of hunch that this could be one of my preferred stacks[^prefer] once they are stable, but for now, this is just a proof of concept. We'll see how it goes.
 
-[^prefer]: I’m only talking about the cases where I want to build a web application with separate frontend and backend, where frontend is entirely static and client-side rendered. For other cases, I will probably prefer other stacks.
+[^prefer]: I’m only talking about the cases where I want to build a web application with separate frontend and backend, where frontend is entirely static and client-side rendered, but still want to write backend in the same language as frontend with E2E type safety without code generation. For other cases, I will probably prefer other stacks.
