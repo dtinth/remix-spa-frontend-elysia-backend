@@ -20,4 +20,6 @@ Demonstration of a web project with:
 > - [Remix Vite](https://remix.run/docs/en/main/future/vite)
 > - [Remix SPA mode](https://remix.run/docs/en/main/future/spa-mode)
 >
-> I have a bit of hunch that this could be my preferred stack once they are stable, but for now, this is just a proof of concept. We'll see how it goes.
+> I have a bit of hunch that this could be one of my preferred stacks[^prefer] once they are stable, but for now, this is just a proof of concept. We'll see how it goes.
+
+[^prefer]: I’m only talking about the cases where I want to build a web application with separate frontend and backend, where frontend is entirely static and client-side rendered. For other cases, I will probably prefer other stacks.
