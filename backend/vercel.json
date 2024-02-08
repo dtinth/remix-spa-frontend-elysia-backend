@@ -2,7 +2,7 @@
   "outputDirectory": "build/client",
   "rewrites": [
     {
-      "source": "/.*",
+      "source": "/(.*)",
       "destination": "/api/vercel.mjs"
     }
   ],
