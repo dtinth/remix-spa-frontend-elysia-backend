@@ -1,0 +1,12 @@
+{
+  "outputDirectory": "build/client",
+  "rewrites": [
+    {
+      "source": "/.*",
+      "destination": "/api/vercel.mjs"
+    }
+  ],
+  "env": {
+    "NODEJS_HELPERS": "0"
+  }
+}
