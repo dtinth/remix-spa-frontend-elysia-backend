@@ -10,4 +10,4 @@ Demonstration of a web project with:
 
 - **Backend: Elysia on Remix.** Server-side code is built with Elysia which comes with built-in type validation and end-to-end type safety. An Elysia app is mounted on a server-side Remix app (which provides hot module reloading during development and bundling for production).
 
-- **Testing: Playwright.**
+- **Testing: Playwright.** [Black-box testing](https://www.youtube.com/watch?v=vbIWSwz8NxQ) lets us ensure the application works as expected while being agnostic to the implementation details. This lets us refactor the code without breaking the tests.
