@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@elysiajs/cors": "1.0.0-beta.2",
-    "@remix-run/express": "^2.6.0",
-    "@remix-run/node": "^2.6.0",
-    "@remix-run/react": "^2.6.0",
-    "@remix-run/serve": "^2.6.0",
+    "@remix-run/express": "^2.7.0-pre.1",
+    "@remix-run/node": "^2.7.0-pre.1",
+    "@remix-run/react": "^2.7.0-pre.1",
+    "@remix-run/serve": "^2.7.0-pre.1",
     "elysia": "1.0.0-exp.12",
     "express": "^4.18.2",
     "isbot": "^5.0.0",
@@ -23,7 +23,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.6.0",
+    "@remix-run/dev": "^2.7.0-pre.1",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
