@@ -12,16 +12,16 @@
   },
   "dependencies": {
     "@elysiajs/eden": "1.0.0-beta.3",
-    "@remix-run/node": "^2.6.0",
-    "@remix-run/react": "^2.6.0",
-    "@remix-run/serve": "^2.6.0",
+    "@remix-run/node": "^2.7.0-pre.1",
+    "@remix-run/react": "^2.7.0-pre.1",
+    "@remix-run/serve": "^2.7.0-pre.1",
     "isbot": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "serve": "^14.2.1"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.6.0",
+    "@remix-run/dev": "^2.7.0-pre.1",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
