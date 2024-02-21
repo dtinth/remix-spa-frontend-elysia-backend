@@ -18,6 +18,10 @@ jobs:
       - uses: dtinth/setup-github-actions-caching-for-turbo@v1
       - name: Install dependencies
         run: pnpm install
+      - name: Lint
+        run: pnpm lint
+      - name: Typecheck
+        run: pnpm typecheck
       - name: Build packages
         run: pnpm build
       - name: Install Playwright Browsers
