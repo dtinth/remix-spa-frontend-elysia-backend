@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.41.2",
-    "@types/node": "^20.11.17",
+    "@types/node": "^20.11.19",
     "prettier": "^3.2.5",
-    "turbo": "latest"
+    "turbo": "^1.12.4"
   },
   "packageManager": "pnpm@8.15.3",
   "engines": {
