@@ -6,6 +6,7 @@
     "start": "concurrently -n backend,frontend \"pnpm run -C backend start\" \"pnpm run -C frontend start\"",
     "dev": "turbo dev",
     "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {

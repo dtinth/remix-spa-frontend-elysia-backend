@@ -10,7 +10,7 @@ import { ReactNode } from "react";
 /**
  * Renders a Remix skeleton with the app's content.
  */
-function RemixSkeleton(props: { children?: ReactNode }) {
+export function Layout(props: { children?: ReactNode }) {
   return (
     <html lang="en">
       <head>
@@ -32,16 +32,12 @@ function RemixSkeleton(props: { children?: ReactNode }) {
  * Rendered after the SPA has been loaded.
  */
 export default function App() {
-  return (
-    <RemixSkeleton>
-      <Outlet />
-    </RemixSkeleton>
-  );
+  return <Outlet />;
 }
 
 /**
  * Rendered while the app is loading.
  */
 export function HydrateFallback() {
-  return <RemixSkeleton>App is loading…</RemixSkeleton>;
+  return <>App is loading…</>;
 }
