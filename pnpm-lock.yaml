@@ -48,6 +48,9 @@ importers:
       express:
         specifier: ^4.18.2
         version: 4.18.2
+      isbot:
+        specifier: ^5.1.0
+        version: 5.1.0
       react:
         specifier: ^18.2.0
         version: 18.2.0
