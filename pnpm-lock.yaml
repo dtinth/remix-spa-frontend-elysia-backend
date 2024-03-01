@@ -28,8 +28,8 @@ importers:
   backend:
     dependencies:
       '@elysiajs/cors':
-        specifier: 1.0.0-beta.2
-        version: 1.0.0-beta.2(elysia@1.0.0-rc.0)
+        specifier: 1.0.0-rc.0
+        version: 1.0.0-rc.0(elysia@1.0.0-rc.0)
       '@remix-run/express':
         specifier: ^2.7.1
         version: 2.8.0(express@4.18.3)(typescript@5.3.3)
@@ -522,10 +522,10 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@elysiajs/cors@1.0.0-beta.2(elysia@1.0.0-rc.0):
-    resolution: {integrity: sha512-vM1lxgvE2loBhNJ5qAIFJE3iuOVgWPHpb8S5oUkmtEn7NKs7DpurY3IG0i5akwI2uLaETBQKG7TwcfwtveFarQ==}
+  /@elysiajs/cors@1.0.0-rc.0(elysia@1.0.0-rc.0):
+    resolution: {integrity: sha512-GOArG4qibc0Eux5ny5eydcb3N59wnOmP5fAnn7LwQoglUw1qAoV2AjhV50+/2PzHCIMO0D3dgl8GHLq52288sA==}
     peerDependencies:
-      elysia: '>= 1.0.0-beta.5'
+      elysia: '>= 1.0.0-rc.0'
     dependencies:
       elysia: 1.0.0-rc.0(@sinclair/typebox@0.32.14)(typescript@5.3.3)
     dev: false
