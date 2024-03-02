@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@playwright/test':
         specifier: ^1.41.2
-        version: 1.42.0
+        version: 1.42.1
       '@types/node':
         specifier: ^20.11.19
         version: 20.11.24
@@ -44,7 +44,7 @@ importers:
         version: 2.8.0(typescript@5.3.3)
       elysia:
         specifier: 1.0.0-rc.0
-        version: 1.0.0-rc.0(@sinclair/typebox@0.32.14)(typescript@5.3.3)
+        version: 1.0.0-rc.0(@sinclair/typebox@0.32.15)(typescript@5.3.3)
       express:
         specifier: ^4.18.2
         version: 4.18.3
@@ -527,7 +527,7 @@ packages:
     peerDependencies:
       elysia: '>= 1.0.0-rc.0'
     dependencies:
-      elysia: 1.0.0-rc.0(@sinclair/typebox@0.32.14)(typescript@5.3.3)
+      elysia: 1.0.0-rc.0(@sinclair/typebox@0.32.15)(typescript@5.3.3)
     dev: false
 
   /@elysiajs/eden@1.0.0-rc.0(elysia@1.0.0-rc.0):
@@ -535,7 +535,7 @@ packages:
     peerDependencies:
       elysia: '>= 1.0.0-rc.0'
     dependencies:
-      elysia: 1.0.0-rc.0(@sinclair/typebox@0.32.14)(typescript@5.3.3)
+      elysia: 1.0.0-rc.0(@sinclair/typebox@0.32.15)(typescript@5.3.3)
     dev: false
 
   /@emotion/hash@0.9.1:
@@ -1147,12 +1147,12 @@ packages:
     dev: true
     optional: true
 
-  /@playwright/test@1.42.0:
-    resolution: {integrity: sha512-2k1HzC28Fs+HiwbJOQDUwrWMttqSLUVdjCqitBOjdCD0svWOMQUVqrXX6iFD7POps6xXAojsX/dGBpKnjZctLA==}
+  /@playwright/test@1.42.1:
+    resolution: {integrity: sha512-Gq9rmS54mjBL/7/MvBaNOBwbfnh7beHvS6oS4srqXFcQHpQCV1+c8JXWE8VLPyRDhgS3H8x8A7hztqI9VnwrAQ==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      playwright: 1.42.0
+      playwright: 1.42.1
     dev: true
 
   /@remix-run/dev@2.8.0(@remix-run/serve@2.8.0)(@types/node@20.11.24)(typescript@5.3.3)(vite@5.1.4):
@@ -1474,8 +1474,8 @@ packages:
     dev: true
     optional: true
 
-  /@sinclair/typebox@0.32.14:
-    resolution: {integrity: sha512-EC77Mw8huT2z9YlYbWfpIQgN6shZE1tH4NP4/Trig8UBel9FZNMZRJ42ubJI8PLor2uIU+waLml1dce5ReCOPg==}
+  /@sinclair/typebox@0.32.15:
+    resolution: {integrity: sha512-5Lrwo7VOiWEBJBhHmqNmf3TPB9ll8gcEshvYJyAIJyCZ2PF48MFOtiDHJNj8+FsNcqImaQYmxVkKBCBlyAa/wg==}
     dev: false
 
   /@types/acorn@4.0.6:
@@ -2573,7 +2573,7 @@ packages:
     resolution: {integrity: sha512-3avY1B+vUzNxEgkBDpKOP8WarvUAEwpRaiCL0He5OKWEFxzaOFiq4WoZEZe7qh0ReS7DiWoHMnYoQCKxNZNzSg==}
     dev: true
 
-  /elysia@1.0.0-rc.0(@sinclair/typebox@0.32.14)(typescript@5.3.3):
+  /elysia@1.0.0-rc.0(@sinclair/typebox@0.32.15)(typescript@5.3.3):
     resolution: {integrity: sha512-5+JNUEXz2IIks6XX+tGQVGdcaQo5lw9zE7t2mV2qQTytWLTi+tg2fRQ2/xJCS9AelFeOTB/40P10v1pnjNdq9Q==}
     peerDependencies:
       '@sinclair/typebox': '>= 0.31.0'
@@ -2585,7 +2585,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@sinclair/typebox': 0.32.14
+      '@sinclair/typebox': 0.32.15
       cookie: 0.6.0
       eventemitter3: 5.0.1
       fast-decode-uri-component: 1.0.1
@@ -5123,18 +5123,18 @@ packages:
       pathe: 1.1.2
     dev: true
 
-  /playwright-core@1.42.0:
-    resolution: {integrity: sha512-0HD9y8qEVlcbsAjdpBaFjmaTHf+1FeIddy8VJLeiqwhcNqGCBe4Wp2e8knpqiYbzxtxarxiXyNDw2cG8sCaNMQ==}
+  /playwright-core@1.42.1:
+    resolution: {integrity: sha512-mxz6zclokgrke9p1vtdy/COWBH+eOZgYUVVU34C73M+4j4HLlQJHtfcqiqqxpP0o8HhMkflvfbquLX5dg6wlfA==}
     engines: {node: '>=16'}
     hasBin: true
     dev: true
 
-  /playwright@1.42.0:
-    resolution: {integrity: sha512-Ko7YRUgj5xBHbntrgt4EIw/nE//XBHOKVKnBjO1KuZkmkhlbgyggTe5s9hjqQ1LpN+Xg+kHsQyt5Pa0Bw5XpvQ==}
+  /playwright@1.42.1:
+    resolution: {integrity: sha512-PgwB03s2DZBcNRoW+1w9E+VkLBxweib6KTXM0M3tkiT4jVxKSi6PmVJ591J+0u10LUrgxB7dLRbiJqO5s2QPMg==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      playwright-core: 1.42.0
+      playwright-core: 1.42.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
