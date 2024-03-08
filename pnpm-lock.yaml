@@ -29,7 +29,7 @@ importers:
     dependencies:
       '@elysiajs/cors':
         specifier: 1.0.0-rc.0
-        version: 1.0.0-rc.0(elysia@1.0.0-rc.8)
+        version: 1.0.0-rc.0(elysia@1.0.0-rc.11)
       '@remix-run/express':
         specifier: ^2.7.1
         version: 2.8.1(express@4.18.3)(typescript@5.4.2)
@@ -43,8 +43,8 @@ importers:
         specifier: ^2.7.1
         version: 2.8.1(typescript@5.4.2)
       elysia:
-        specifier: 1.0.0-rc.8
-        version: 1.0.0-rc.8(@sinclair/typebox@0.32.15)(typescript@5.4.2)
+        specifier: 1.0.0-rc.11
+        version: 1.0.0-rc.11(@sinclair/typebox@0.32.15)(typescript@5.4.2)
       express:
         specifier: ^4.18.2
         version: 4.18.3
@@ -105,7 +105,7 @@ importers:
     dependencies:
       '@elysiajs/eden':
         specifier: 1.0.0-rc.1
-        version: 1.0.0-rc.1(elysia@1.0.0-rc.8)
+        version: 1.0.0-rc.1(elysia@1.0.0-rc.11)
       '@remix-run/node':
         specifier: ^2.7.1
         version: 2.8.1(typescript@5.4.2)
@@ -522,20 +522,20 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@elysiajs/cors@1.0.0-rc.0(elysia@1.0.0-rc.8):
+  /@elysiajs/cors@1.0.0-rc.0(elysia@1.0.0-rc.11):
     resolution: {integrity: sha512-GOArG4qibc0Eux5ny5eydcb3N59wnOmP5fAnn7LwQoglUw1qAoV2AjhV50+/2PzHCIMO0D3dgl8GHLq52288sA==}
     peerDependencies:
       elysia: '>= 1.0.0-rc.0'
     dependencies:
-      elysia: 1.0.0-rc.8(@sinclair/typebox@0.32.15)(typescript@5.4.2)
+      elysia: 1.0.0-rc.11(@sinclair/typebox@0.32.15)(typescript@5.4.2)
     dev: false
 
-  /@elysiajs/eden@1.0.0-rc.1(elysia@1.0.0-rc.8):
+  /@elysiajs/eden@1.0.0-rc.1(elysia@1.0.0-rc.11):
     resolution: {integrity: sha512-7AuI4LvwDNpHqDS6w812VDN6yYQ/1f9yBhi7IOil1Ei4+yDyFqIqM32J1m5Yr5K3obNrVNPQ6s1PhwD609YjAA==}
     peerDependencies:
       elysia: '>= 1.0.0-rc.0'
     dependencies:
-      elysia: 1.0.0-rc.8(@sinclair/typebox@0.32.15)(typescript@5.4.2)
+      elysia: 1.0.0-rc.11(@sinclair/typebox@0.32.15)(typescript@5.4.2)
     dev: false
 
   /@emotion/hash@0.9.1:
@@ -2621,8 +2621,8 @@ packages:
     resolution: {integrity: sha512-eMijZmeqPtm774pCZIOrfUHMs/7ls++W1sLhxwqgu8KQ8E2WmMtzwyqOMt0XXUJ3HTIPfuwlfwF+I5cwnfItBA==}
     dev: true
 
-  /elysia@1.0.0-rc.8(@sinclair/typebox@0.32.15)(typescript@5.4.2):
-    resolution: {integrity: sha512-6jJ1hrbj4CrpoKAqF6iLsTa9qP0hAfy+tdEqqqmedDe1Z9ongMfsXZ46n6RLSwIINl1IFHK8e0G5erPF5i1uJw==}
+  /elysia@1.0.0-rc.11(@sinclair/typebox@0.32.15)(typescript@5.4.2):
+    resolution: {integrity: sha512-3SKRDAkgFUFOUrOYMZnUa0ca1yPRej9iPZsmf42yi2yN4doddJIGYAYWI1+jMLR7fyVPzYvnLhsj2fpM/Myupg==}
     peerDependencies:
       '@sinclair/typebox': '>= 0.31.0'
       openapi-types: '>= 12.0.0'
