@@ -11,7 +11,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@elysiajs/eden": "1.0.0-rc.3",
+    "@elysiajs/eden": "1.0.0-rc.4",
     "@remix-run/node": "^2.7.1",
     "@remix-run/react": "^2.7.1",
     "@remix-run/serve": "^2.7.1",
