@@ -104,8 +104,8 @@ importers:
   frontend:
     dependencies:
       '@elysiajs/eden':
-        specifier: 1.0.0-rc.5
-        version: 1.0.0-rc.5(elysia@1.0.0)
+        specifier: 1.0.0
+        version: 1.0.0(elysia@1.0.0)
       '@remix-run/node':
         specifier: ^2.7.1
         version: 2.8.1(typescript@5.4.2)
@@ -530,12 +530,22 @@ packages:
       elysia: 1.0.0(@sinclair/typebox@0.32.15)(typescript@5.4.2)
     dev: false
 
-  /@elysiajs/eden@1.0.0-rc.5(elysia@1.0.0):
-    resolution: {integrity: sha512-vbkDnzwjRbwuhEdFalgHbxSyYuM/WiStk+P9xpBoaXiGont30EQlGyRq4I+t2NQOTthJTa9JPAGEIC/Hp47Edg==}
+  /@elysiajs/eden@1.0.0(elysia@1.0.0):
+    resolution: {integrity: sha512-fcxL3PTbc+8rEAhX4fdOjcrABtuVh+XFDRq5HZAWbHQGXVS7huW4UhQxmpZmViXgDd7D81TCI8qA7BdDLG44Ug==}
+    peerDependencies:
+      elysia: '>= 1.0.0'
+    dependencies:
+      '@elysiajs/stream': 1.0.0-rc.0(elysia@1.0.0)
+      elysia: 1.0.0(@sinclair/typebox@0.32.15)(typescript@5.4.2)
+    dev: false
+
+  /@elysiajs/stream@1.0.0-rc.0(elysia@1.0.0):
+    resolution: {integrity: sha512-4VxHaDG/JngphW1j7eIIRxui+znZKugZG6999e2LlJUunj0co2Ud4WUAk6pks8izI3SO4EO/nyjhRp72GmS4lA==}
     peerDependencies:
       elysia: '>= 1.0.0-rc.0'
     dependencies:
       elysia: 1.0.0(@sinclair/typebox@0.32.15)(typescript@5.4.2)
+      nanoid: 5.0.6
     dev: false
 
   /@emotion/hash@0.9.1:
@@ -5006,6 +5016,12 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
+
+  /nanoid@5.0.6:
+    resolution: {integrity: sha512-rRq0eMHoGZxlvaFOUdK1Ev83Bd1IgzzR+WJ3IbDJ7QOSdAxYjlurSPqFs9s4lJg29RT6nPwizFtJhQS6V5xgiA==}
+    engines: {node: ^18 || >=20}
+    hasBin: true
+    dev: false
 
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
