@@ -10,10 +10,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@playwright/test": "^1.41.2",
-    "@types/node": "^20.11.19",
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.29",
     "prettier": "^3.2.5",
-    "turbo": "^1.12.4"
+    "turbo": "^1.12.5"
   },
   "packageManager": "pnpm@8.15.5",
   "engines": {
