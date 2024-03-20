@@ -104,8 +104,8 @@ importers:
   frontend:
     dependencies:
       '@elysiajs/eden':
-        specifier: 1.0.4
-        version: 1.0.4(elysia@1.0.6)
+        specifier: 1.0.5
+        version: 1.0.5(elysia@1.0.6)
       '@remix-run/node':
         specifier: ^2.8.1
         version: 2.8.1(typescript@5.4.2)
@@ -539,8 +539,8 @@ packages:
       elysia: 1.0.6(@sinclair/typebox@0.32.15)(typescript@5.4.2)
     dev: false
 
-  /@elysiajs/eden@1.0.4(elysia@1.0.6):
-    resolution: {integrity: sha512-/Gk4q9T3udai9+XMFHeos94EXs3R1N/zlZx6Ky3QLT9/QTyj1i6TYD/Qee1dfwgvx2reGE2UoX0Zaejnpfy+/w==}
+  /@elysiajs/eden@1.0.5(elysia@1.0.6):
+    resolution: {integrity: sha512-3NFLywotrdKUaYu98DmhtHWiJdXHf4pIMjFU8LNmCecEGOqWH9plVVULp4nvZVJ+ZQ/fnt74y/xLnZEQZkPeBQ==}
     peerDependencies:
       elysia: '>= 1.0.2'
     dependencies:
