@@ -44,7 +44,7 @@ importers:
         version: 2.8.1(typescript@5.4.3)
       elysia:
         specifier: 1.0.7
-        version: 1.0.7(@sinclair/typebox@0.32.18)(typescript@5.4.3)
+        version: 1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3)
       express:
         specifier: ^4.18.3
         version: 4.19.1
@@ -60,7 +60,7 @@ importers:
     devDependencies:
       '@remix-run/dev':
         specifier: ^2.8.1
-        version: 2.8.1(@remix-run/serve@2.8.1)(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.3)
+        version: 2.8.1(@remix-run/serve@2.8.1)(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.4)
       '@types/react':
         specifier: ^18.2.67
         version: 18.2.69
@@ -96,10 +96,10 @@ importers:
         version: 5.4.3
       vite:
         specifier: ^5.1.6
-        version: 5.2.3(@types/node@20.11.30)
+        version: 5.2.4(@types/node@20.11.30)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.4.3)(vite@5.2.3)
+        version: 4.3.2(typescript@5.4.3)(vite@5.2.4)
 
   frontend:
     dependencies:
@@ -130,7 +130,7 @@ importers:
     devDependencies:
       '@remix-run/dev':
         specifier: ^2.8.1
-        version: 2.8.1(@remix-run/serve@2.8.1)(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.3)
+        version: 2.8.1(@remix-run/serve@2.8.1)(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.4)
       '@types/react':
         specifier: ^18.2.67
         version: 18.2.69
@@ -166,10 +166,10 @@ importers:
         version: 5.4.3
       vite:
         specifier: ^5.1.6
-        version: 5.2.3(@types/node@20.11.30)
+        version: 5.2.4(@types/node@20.11.30)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.4.3)(vite@5.2.3)
+        version: 4.3.2(typescript@5.4.3)(vite@5.2.4)
 
 packages:
 
@@ -536,7 +536,7 @@ packages:
     peerDependencies:
       elysia: '>= 1.0.2'
     dependencies:
-      elysia: 1.0.7(@sinclair/typebox@0.32.18)(typescript@5.4.3)
+      elysia: 1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3)
     dev: false
 
   /@elysiajs/eden@1.0.5(elysia@1.0.7):
@@ -545,7 +545,7 @@ packages:
       elysia: '>= 1.0.2'
     dependencies:
       '@elysiajs/stream': 1.0.0-rc.0(elysia@1.0.7)
-      elysia: 1.0.7(@sinclair/typebox@0.32.18)(typescript@5.4.3)
+      elysia: 1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3)
     dev: false
 
   /@elysiajs/stream@1.0.0-rc.0(elysia@1.0.7):
@@ -553,7 +553,7 @@ packages:
     peerDependencies:
       elysia: '>= 1.0.0-rc.0'
     dependencies:
-      elysia: 1.0.7(@sinclair/typebox@0.32.18)(typescript@5.4.3)
+      elysia: 1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3)
       nanoid: 5.0.6
     dev: false
 
@@ -1174,7 +1174,7 @@ packages:
       playwright: 1.42.1
     dev: true
 
-  /@remix-run/dev@2.8.1(@remix-run/serve@2.8.1)(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.3):
+  /@remix-run/dev@2.8.1(@remix-run/serve@2.8.1)(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.4):
     resolution: {integrity: sha512-qFt4jAsAJeIOyg6ngeSnTG/9Z5N9QJfeThP/8wRHc1crqYgTiEtcI3DZ8WlAXjVSF5emgn/ZZKqzLAI02OgMfQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -1247,7 +1247,7 @@ packages:
       tar-fs: 2.1.1
       tsconfig-paths: 4.2.0
       typescript: 5.4.3
-      vite: 5.2.3(@types/node@20.11.30)
+      vite: 5.2.4(@types/node@20.11.30)
       ws: 7.5.9
     transitivePeerDependencies:
       - '@types/node'
@@ -1498,8 +1498,8 @@ packages:
     dev: true
     optional: true
 
-  /@sinclair/typebox@0.32.18:
-    resolution: {integrity: sha512-ioMK5TA5YOloYf/GcnF+1fT4eTvowJes2j7Pm0Ivlm9xq61keqQw/XtbQQnPG8O4uq2y2DDenU8OqNc93xn11Q==}
+  /@sinclair/typebox@0.32.19:
+    resolution: {integrity: sha512-AUphm4Py6t+q5b6TU8OA9YRgeGfogsWy2oZvYLRCxt6d+mPkT0Mc4j+BusQYMGJH47DJe3/fKkLtmWPrKP1nzQ==}
     dev: false
 
   /@types/acorn@4.0.6:
@@ -1765,7 +1765,7 @@ packages:
       lodash: 4.17.21
       mlly: 1.6.1
       outdent: 0.8.0
-      vite: 5.2.3(@types/node@20.11.30)
+      vite: 5.2.4(@types/node@20.11.30)
       vite-node: 1.4.0(@types/node@20.11.30)
     transitivePeerDependencies:
       - '@types/node'
@@ -2643,7 +2643,7 @@ packages:
     resolution: {integrity: sha512-w+9yAVHoHhysCa+gln7AzbO9CdjFcL/wN/5dd+XW/Msl2d/4+WisEaCF1nty0xbAKaxdaJfgLB2296U7zZB7BA==}
     dev: true
 
-  /elysia@1.0.7(@sinclair/typebox@0.32.18)(typescript@5.4.3):
+  /elysia@1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3):
     resolution: {integrity: sha512-651FhmZrpFA41bqIvKXp2AUikGkoFZIYESPr1hIWhWkyXEvrKh9+1G7TuSj4UIv1G7LXE3RevW97IXP+NUh0cQ==}
     peerDependencies:
       '@sinclair/typebox': '>= 0.31.0'
@@ -2655,7 +2655,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@sinclair/typebox': 0.32.18
+      '@sinclair/typebox': 0.32.19
       cookie: 0.6.0
       eventemitter3: 5.0.1
       fast-decode-uri-component: 1.0.1
@@ -6825,7 +6825,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.2.3(@types/node@20.11.30)
+      vite: 5.2.4(@types/node@20.11.30)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -6837,7 +6837,7 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.3.2(typescript@5.4.3)(vite@5.2.3):
+  /vite-tsconfig-paths@4.3.2(typescript@5.4.3)(vite@5.2.4):
     resolution: {integrity: sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==}
     peerDependencies:
       vite: '*'
@@ -6848,14 +6848,14 @@ packages:
       debug: 4.3.4
       globrex: 0.1.2
       tsconfck: 3.0.3(typescript@5.4.3)
-      vite: 5.2.3(@types/node@20.11.30)
+      vite: 5.2.4(@types/node@20.11.30)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@5.2.3(@types/node@20.11.30):
-    resolution: {integrity: sha512-+i1oagbvkVIhEy9TnEV+fgXsng13nZM90JQbrcPrf6DvW2mXARlz+DK7DLiDP+qeKoD1FCVx/1SpFL1CLq9Mhw==}
+  /vite@5.2.4(@types/node@20.11.30):
+    resolution: {integrity: sha512-vjFghvHWidBTinu5TCymJk/lRHlR5ljqB83yugr0HA1xspUPdOZHqbqDLnZ8f9/jINrtFHTCYYyIUi+o+Q5iyg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
