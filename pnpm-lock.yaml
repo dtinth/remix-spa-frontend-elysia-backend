@@ -44,7 +44,7 @@ importers:
         version: 2.8.1(typescript@5.4.3)
       elysia:
         specifier: 1.0.7
-        version: 1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3)
+        version: 1.0.7(@sinclair/typebox@0.32.20)(typescript@5.4.3)
       express:
         specifier: ^4.18.3
         version: 4.19.1
@@ -63,7 +63,7 @@ importers:
         version: 2.8.1(@remix-run/serve@2.8.1)(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.6)
       '@types/react':
         specifier: ^18.2.67
-        version: 18.2.69
+        version: 18.2.70
       '@types/react-dom':
         specifier: ^18.2.22
         version: 18.2.22
@@ -133,7 +133,7 @@ importers:
         version: 2.8.1(@remix-run/serve@2.8.1)(@types/node@20.11.30)(typescript@5.4.3)(vite@5.2.6)
       '@types/react':
         specifier: ^18.2.67
-        version: 18.2.69
+        version: 18.2.70
       '@types/react-dom':
         specifier: ^18.2.22
         version: 18.2.22
@@ -536,7 +536,7 @@ packages:
     peerDependencies:
       elysia: '>= 1.0.2'
     dependencies:
-      elysia: 1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3)
+      elysia: 1.0.7(@sinclair/typebox@0.32.20)(typescript@5.4.3)
     dev: false
 
   /@elysiajs/eden@1.0.6(elysia@1.0.7):
@@ -545,7 +545,7 @@ packages:
       elysia: '>= 1.0.2'
     dependencies:
       '@elysiajs/stream': 1.0.0-rc.0(elysia@1.0.7)
-      elysia: 1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3)
+      elysia: 1.0.7(@sinclair/typebox@0.32.20)(typescript@5.4.3)
     dev: false
 
   /@elysiajs/stream@1.0.0-rc.0(elysia@1.0.7):
@@ -553,7 +553,7 @@ packages:
     peerDependencies:
       elysia: '>= 1.0.0-rc.0'
     dependencies:
-      elysia: 1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3)
+      elysia: 1.0.7(@sinclair/typebox@0.32.20)(typescript@5.4.3)
       nanoid: 5.0.6
     dev: false
 
@@ -1498,8 +1498,8 @@ packages:
     dev: true
     optional: true
 
-  /@sinclair/typebox@0.32.19:
-    resolution: {integrity: sha512-AUphm4Py6t+q5b6TU8OA9YRgeGfogsWy2oZvYLRCxt6d+mPkT0Mc4j+BusQYMGJH47DJe3/fKkLtmWPrKP1nzQ==}
+  /@sinclair/typebox@0.32.20:
+    resolution: {integrity: sha512-ziK497ILSIYMxD/thl496idIb03IZPlha04itLQu1xAFQbumWZ+Dj4PMMCkDRpAYhvVSdmRlTjGu2B2MA5RplQ==}
     dev: false
 
   /@types/acorn@4.0.6:
@@ -1568,11 +1568,11 @@ packages:
   /@types/react-dom@18.2.22:
     resolution: {integrity: sha512-fHkBXPeNtfvri6gdsMYyW+dW7RXFo6Ad09nLFK0VQWR7yGLai/Cyvyj696gbwYvBnhGtevUG9cET0pmUbMtoPQ==}
     dependencies:
-      '@types/react': 18.2.69
+      '@types/react': 18.2.70
     dev: true
 
-  /@types/react@18.2.69:
-    resolution: {integrity: sha512-W1HOMUWY/1Yyw0ba5TkCV+oqynRjG7BnteBB+B7JmAK7iw3l2SW+VGOxL+akPweix6jk2NNJtyJKpn4TkpfK3Q==}
+  /@types/react@18.2.70:
+    resolution: {integrity: sha512-hjlM2hho2vqklPhopNkXkdkeq6Lv8WSZTpr7956zY+3WS5cfYUewtCzsJLsbW5dEv3lfSeQ4W14ZFeKC437JRQ==}
     dependencies:
       '@types/prop-types': 15.7.12
       '@types/scheduler': 0.16.8
@@ -2643,7 +2643,7 @@ packages:
     resolution: {integrity: sha512-w+9yAVHoHhysCa+gln7AzbO9CdjFcL/wN/5dd+XW/Msl2d/4+WisEaCF1nty0xbAKaxdaJfgLB2296U7zZB7BA==}
     dev: true
 
-  /elysia@1.0.7(@sinclair/typebox@0.32.19)(typescript@5.4.3):
+  /elysia@1.0.7(@sinclair/typebox@0.32.20)(typescript@5.4.3):
     resolution: {integrity: sha512-651FhmZrpFA41bqIvKXp2AUikGkoFZIYESPr1hIWhWkyXEvrKh9+1G7TuSj4UIv1G7LXE3RevW97IXP+NUh0cQ==}
     peerDependencies:
       '@sinclair/typebox': '>= 0.31.0'
@@ -2655,7 +2655,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@sinclair/typebox': 0.32.19
+      '@sinclair/typebox': 0.32.20
       cookie: 0.6.0
       eventemitter3: 5.0.1
       fast-decode-uri-component: 1.0.1
