@@ -29,7 +29,7 @@ importers:
     dependencies:
       '@elysiajs/cors':
         specifier: 1.0.2
-        version: 1.0.2(elysia@1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2))
+        version: 1.0.2(elysia@1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2))
       '@remix-run/express':
         specifier: ^2.8.1
         version: 2.9.2(express@4.19.2)(typescript@5.5.2)
@@ -43,8 +43,8 @@ importers:
         specifier: ^2.8.1
         version: 2.9.2(typescript@5.5.2)
       elysia:
-        specifier: 1.0.21
-        version: 1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2)
+        specifier: 1.0.25
+        version: 1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2)
       express:
         specifier: ^4.18.3
         version: 4.19.2
@@ -105,7 +105,7 @@ importers:
     dependencies:
       '@elysiajs/eden':
         specifier: 1.0.14
-        version: 1.0.14(elysia@1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2))
+        version: 1.0.14(elysia@1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2))
       '@remix-run/node':
         specifier: ^2.8.1
         version: 2.9.2(typescript@5.5.2)
@@ -1560,8 +1560,8 @@ packages:
   electron-to-chromium@1.4.763:
     resolution: {integrity: sha512-k4J8NrtJ9QrvHLRo8Q18OncqBCB7tIUyqxRcJnlonQ0ioHKYB988GcDFF3ZePmnb8eHEopDs/wPHR/iGAFgoUQ==}
 
-  elysia@1.0.21:
-    resolution: {integrity: sha512-RequZudOgFMZszq6EYbrBU1X/otQ0zZ8FVYpmYzFmcwsIxUzfn4wSYS7/peCfv1RQar+nBrFcYCT1lOpQRjAsg==}
+  elysia@1.0.25:
+    resolution: {integrity: sha512-Tf29quL0G9xIZI246cn60K3XnCeAjwzrd1fpQ8IlLlM19CaUse0oq0A4bq23Uz2z1CsH/6vKECxvdLh3AS8KVA==}
     peerDependencies:
       '@sinclair/typebox': '>= 0.31.0'
       openapi-types: '>= 12.0.0'
@@ -4024,18 +4024,18 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.5
       to-fast-properties: 2.0.0
 
-  '@elysiajs/cors@1.0.2(elysia@1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2))':
+  '@elysiajs/cors@1.0.2(elysia@1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2))':
     dependencies:
-      elysia: 1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2)
+      elysia: 1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2)
 
-  '@elysiajs/eden@1.0.14(elysia@1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2))':
+  '@elysiajs/eden@1.0.14(elysia@1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2))':
     dependencies:
-      '@elysiajs/stream': 1.0.2(elysia@1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2))
-      elysia: 1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2)
+      '@elysiajs/stream': 1.0.2(elysia@1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2))
+      elysia: 1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2)
 
-  '@elysiajs/stream@1.0.2(elysia@1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2))':
+  '@elysiajs/stream@1.0.2(elysia@1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2))':
     dependencies:
-      elysia: 1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2)
+      elysia: 1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2)
       nanoid: 5.0.7
 
   '@emotion/hash@0.9.1': {}
@@ -5299,7 +5299,7 @@ snapshots:
 
   electron-to-chromium@1.4.763: {}
 
-  elysia@1.0.21(@sinclair/typebox@0.32.20)(typescript@5.5.2):
+  elysia@1.0.25(@sinclair/typebox@0.32.20)(typescript@5.5.2):
     dependencies:
       '@sinclair/typebox': 0.32.20
       cookie: 0.6.0
