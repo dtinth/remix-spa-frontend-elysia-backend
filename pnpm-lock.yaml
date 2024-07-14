@@ -28,8 +28,8 @@ importers:
   backend:
     dependencies:
       '@elysiajs/cors':
-        specifier: 1.0.2
-        version: 1.0.2(elysia@1.0.27(@sinclair/typebox@0.32.20)(typescript@5.5.3))
+        specifier: 1.0.5
+        version: 1.0.5(elysia@1.0.27(@sinclair/typebox@0.32.20)(typescript@5.5.3))
       '@remix-run/express':
         specifier: ^2.8.1
         version: 2.10.2(express@4.19.2)(typescript@5.5.3)
@@ -344,8 +344,8 @@ packages:
     resolution: {integrity: sha512-XEFXSlxiG5td2EJRe8vOmRbaXVgfcBlszKujvVmWIK/UpywWljQCfzAv3RQCGujWQ1RD4YYWEAqDXfuJiy8f5Q==}
     engines: {node: '>=6.9.0'}
 
-  '@elysiajs/cors@1.0.2':
-    resolution: {integrity: sha512-2X+wes5M2SdSaI4lGp0YBbTK35y9TtjjjFMjmQNjMonUXxtOrAR7cA0lsSIvHQ8UTd9z+mMBn7NyBhWaKxq0jA==}
+  '@elysiajs/cors@1.0.5':
+    resolution: {integrity: sha512-dOhJzTRBwgAoosCpfxpEQhzf08dRE2p4H+pTQWOl76YXmeZDnvjw/hTgwo0UYf6tnY0BAgnUG2T1QzIhGR601w==}
     peerDependencies:
       elysia: '>= 1.0.2'
 
@@ -4051,7 +4051,7 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
 
-  '@elysiajs/cors@1.0.2(elysia@1.0.27(@sinclair/typebox@0.32.20)(typescript@5.5.3))':
+  '@elysiajs/cors@1.0.5(elysia@1.0.27(@sinclair/typebox@0.32.20)(typescript@5.5.3))':
     dependencies:
       elysia: 1.0.27(@sinclair/typebox@0.32.20)(typescript@5.5.3)
 
