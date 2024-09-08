@@ -20,6 +20,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^9.0.0"
   }
 }
