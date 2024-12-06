@@ -32,7 +32,7 @@ importers:
         version: 1.1.1(elysia@1.1.26(@sinclair/typebox@0.32.20)(typescript@5.7.2))
       '@remix-run/express':
         specifier: ^2.8.1
-        version: 2.15.0(express@4.21.1)(typescript@5.7.2)
+        version: 2.15.0(express@4.21.2)(typescript@5.7.2)
       '@remix-run/node':
         specifier: ^2.8.1
         version: 2.15.0(typescript@5.7.2)
@@ -47,7 +47,7 @@ importers:
         version: 1.1.26(@sinclair/typebox@0.32.20)(typescript@5.7.2)
       express:
         specifier: ^4.18.3
-        version: 4.21.1
+        version: 4.21.2
       isbot:
         specifier: ^5.1.2
         version: 5.1.17
@@ -1928,8 +1928,8 @@ packages:
     resolution: {integrity: sha512-eNTPlAD67BmP31LDINZ3U7HSF8l57TxOY2PmBJ1shpCvpnxBF93mWCE8YHBnXs8qiUZJc9WDcWIeC3a2HIAMfw==}
     engines: {node: '>=6'}
 
-  express@4.21.1:
-    resolution: {integrity: sha512-YSFlK1Ee0/GC8QaO91tHcDxJiE/X4FbpAyQWkxAvG6AXCuR65YzK8ua6D9hvi/TzUfZMpc+BwuM1IPw8fmQBiQ==}
+  express@4.21.2:
+    resolution: {integrity: sha512-28HqgMZAmih1Czt9ny7qr6ek2qddF4FclbMzwhCREB6OFfH+rXAnuNCwo1/wFvrtbgsQDb4kSbX9de9lFbrXnA==}
     engines: {node: '>= 0.10.0'}
 
   extend@3.0.2:
@@ -2821,6 +2821,10 @@ packages:
     resolution: {integrity: sha512-IRZSRuzJiynemAXPYtPe5BoI/RESNYR7TYm50MC5Mqbd3Jmw5y790sErYw3V6SryFJD64b74qQQs9wn5Bg/k3g==}
     engines: {node: '>= 0.4'}
 
+  object-inspect@1.13.3:
+    resolution: {integrity: sha512-kDCGIbxkDSXE3euJZZXzc6to7fCrKHNI/hSRQnRuQ+BWjFNzZwiFF8fj/6o2t2G9/jTj8PSIYTfCLelLZEeRpA==}
+    engines: {node: '>= 0.4'}
+
   object-keys@1.1.1:
     resolution: {integrity: sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==}
     engines: {node: '>= 0.4'}
@@ -2930,8 +2934,8 @@ packages:
     resolution: {integrity: sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA==}
     engines: {node: '>=16 || 14 >=14.18'}
 
-  path-to-regexp@0.1.10:
-    resolution: {integrity: sha512-7lf7qcQidTku0Gu3YDPc8DJ1q7OOucfa/BSsIwjuh56VU7katFvuM8hULfkwB3Fns/rsVF7PwPKVw1sl5KQS9w==}
+  path-to-regexp@0.1.12:
+    resolution: {integrity: sha512-RA1GjUVMnvYFxuqovrEqZoxxW5NUZqbwKtYz/Tt7nXerk0LbLblQmrsgdeOxV5SFHf0UDggjS/bSeOZwt1pmEQ==}
 
   path-to-regexp@3.3.0:
     resolution: {integrity: sha512-qyCH421YQPS2WFDxDjftfc1ZR5WKQzVzqsp4n9M2kQhVOo/ByahFoUNJfl58kOcEGfQ//7weFTDhm+ss8Ecxgw==}
@@ -4502,7 +4506,7 @@ snapshots:
       esbuild-plugins-node-modules-polyfill: 1.6.8(esbuild@0.17.6)
       execa: 5.1.1
       exit-hook: 2.2.1
-      express: 4.21.1
+      express: 4.21.2
       fs-extra: 10.1.0
       get-port: 5.1.1
       gunzip-maybe: 1.4.2
@@ -4551,10 +4555,10 @@ snapshots:
       - ts-node
       - utf-8-validate
 
-  '@remix-run/express@2.15.0(express@4.21.1)(typescript@5.7.2)':
+  '@remix-run/express@2.15.0(express@4.21.2)(typescript@5.7.2)':
     dependencies:
       '@remix-run/node': 2.15.0(typescript@5.7.2)
-      express: 4.21.1
+      express: 4.21.2
     optionalDependencies:
       typescript: 5.7.2
 
@@ -4586,11 +4590,11 @@ snapshots:
 
   '@remix-run/serve@2.15.0(typescript@5.7.2)':
     dependencies:
-      '@remix-run/express': 2.15.0(express@4.21.1)(typescript@5.7.2)
+      '@remix-run/express': 2.15.0(express@4.21.2)(typescript@5.7.2)
       '@remix-run/node': 2.15.0(typescript@5.7.2)
       chokidar: 3.6.0
       compression: 1.7.5
-      express: 4.21.1
+      express: 4.21.2
       get-port: 5.1.1
       morgan: 1.10.0
       source-map-support: 0.5.21
@@ -5871,7 +5875,7 @@ snapshots:
 
   exit-hook@2.2.1: {}
 
-  express@4.21.1:
+  express@4.21.2:
     dependencies:
       accepts: 1.3.8
       array-flatten: 1.1.1
@@ -5892,7 +5896,7 @@ snapshots:
       methods: 1.1.2
       on-finished: 2.4.1
       parseurl: 1.3.3
-      path-to-regexp: 0.1.10
+      path-to-regexp: 0.1.12
       proxy-addr: 2.0.7
       qs: 6.13.0
       range-parser: 1.2.1
@@ -6943,6 +6947,8 @@ snapshots:
 
   object-inspect@1.13.2: {}
 
+  object-inspect@1.13.3: {}
+
   object-keys@1.1.1: {}
 
   object.assign@4.1.5:
@@ -7068,7 +7074,7 @@ snapshots:
       lru-cache: 10.4.3
       minipass: 7.1.2
 
-  path-to-regexp@0.1.10: {}
+  path-to-regexp@0.1.12: {}
 
   path-to-regexp@3.3.0: {}
 
@@ -7534,7 +7540,7 @@ snapshots:
       call-bind: 1.0.7
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
-      object-inspect: 1.13.2
+      object-inspect: 1.13.3
 
   signal-exit@3.0.7: {}
 
