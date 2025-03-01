@@ -17,7 +17,7 @@ importers:
         version: 1.50.1
       '@types/node':
         specifier: ^22.0.0
-        version: 22.13.6
+        version: 22.13.7
       prettier:
         specifier: ^3.2.5
         version: 3.5.2
@@ -1069,9 +1069,6 @@ packages:
 
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
-
-  '@types/node@22.13.6':
-    resolution: {integrity: sha512-GYmF65GI7417CpZXsEXMjT8goQQDnpRnJnDw6jIYa+le3V/lMazPZ4vZmK1B/9R17fh2VLr2zuy9d/h5xgrLAg==}
 
   '@types/node@22.13.7':
     resolution: {integrity: sha512-oU2q+BsQldB9lYxHNp/5aZO+/Bs0Usa74Abo9mAKulz4ahQyXRHK6UVKYIN8KSC8HXwhWSi7b49JnX+txuac0w==}
@@ -4973,10 +4970,6 @@ snapshots:
   '@types/mdx@2.0.13': {}
 
   '@types/ms@2.1.0': {}
-
-  '@types/node@22.13.6':
-    dependencies:
-      undici-types: 6.20.0
 
   '@types/node@22.13.7':
     dependencies:
