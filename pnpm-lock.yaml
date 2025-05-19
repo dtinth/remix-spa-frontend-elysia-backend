@@ -32,16 +32,16 @@ importers:
         version: 1.3.3(elysia@1.1.27(@sinclair/typebox@0.32.20)(typescript@5.8.3))
       '@remix-run/express':
         specifier: ^2.8.1
-        version: 2.16.6(express@5.1.0)(typescript@5.8.3)
+        version: 2.16.7(express@5.1.0)(typescript@5.8.3)
       '@remix-run/node':
         specifier: ^2.8.1
-        version: 2.16.6(typescript@5.8.3)
+        version: 2.16.7(typescript@5.8.3)
       '@remix-run/react':
         specifier: ^2.8.1
-        version: 2.16.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 2.16.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@remix-run/serve':
         specifier: ^2.8.1
-        version: 2.16.6(typescript@5.8.3)
+        version: 2.16.7(typescript@5.8.3)
       elysia:
         specifier: 1.1.27
         version: 1.1.27(@sinclair/typebox@0.32.20)(typescript@5.8.3)
@@ -60,7 +60,7 @@ importers:
     devDependencies:
       '@remix-run/dev':
         specifier: ^2.8.1
-        version: 2.16.6(@remix-run/react@2.16.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3))(@remix-run/serve@2.16.6(typescript@5.8.3))(@types/node@22.15.19)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(yaml@2.7.1))(yaml@2.7.1)
+        version: 2.16.7(@remix-run/react@2.16.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3))(@remix-run/serve@2.16.7(typescript@5.8.3))(@types/node@22.15.19)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(yaml@2.7.1))(yaml@2.7.1)
       '@types/react':
         specifier: ^19.0.0
         version: 19.1.4
@@ -108,13 +108,13 @@ importers:
         version: 1.2.0(elysia@1.1.27(@sinclair/typebox@0.32.20)(typescript@5.8.3))
       '@remix-run/node':
         specifier: ^2.8.1
-        version: 2.16.6(typescript@5.8.3)
+        version: 2.16.7(typescript@5.8.3)
       '@remix-run/react':
         specifier: ^2.8.1
-        version: 2.16.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 2.16.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@remix-run/serve':
         specifier: ^2.8.1
-        version: 2.16.6(typescript@5.8.3)
+        version: 2.16.7(typescript@5.8.3)
       isbot:
         specifier: ^5.1.2
         version: 5.1.28
@@ -130,7 +130,7 @@ importers:
     devDependencies:
       '@remix-run/dev':
         specifier: ^2.8.1
-        version: 2.16.6(@remix-run/react@2.16.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3))(@remix-run/serve@2.16.6(typescript@5.8.3))(@types/node@22.15.19)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(yaml@2.7.1))(yaml@2.7.1)
+        version: 2.16.7(@remix-run/react@2.16.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3))(@remix-run/serve@2.16.7(typescript@5.8.3))(@types/node@22.15.19)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(yaml@2.7.1))(yaml@2.7.1)
       '@types/react':
         specifier: ^19.0.0
         version: 19.1.4
@@ -863,13 +863,13 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  '@remix-run/dev@2.16.6':
-    resolution: {integrity: sha512-vddzv6IY+4KFDNhTj7yvMi5BmBpEVSe6meq9Z7/yM5mjv03F5Ywsci41Sdri2RU5Nitplrj2o9iXOtQOnTBS3g==}
+  '@remix-run/dev@2.16.7':
+    resolution: {integrity: sha512-TOY1g0LXKA2fHZUg/+7UdY/znCv9tnF49xdCP0EYh+X9Iaiz/w2I74CYaUTh9dXesVWEwWpfUn3+GISKtbdyPw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
-      '@remix-run/react': ^2.16.6
-      '@remix-run/serve': ^2.16.6
+      '@remix-run/react': ^2.16.7
+      '@remix-run/serve': ^2.16.7
       typescript: ^5.1.0
       vite: ^5.1.0 || ^6.0.0
       wrangler: ^3.28.2
@@ -883,8 +883,8 @@ packages:
       wrangler:
         optional: true
 
-  '@remix-run/express@2.16.6':
-    resolution: {integrity: sha512-TqtSg9Q3oCQwOXMUuErwiV/ydBrCRHpNaWiPN67K0X9VnUfmE6M2VTudaSm9f6n97MJaX5WFmNaTTHxMq74waw==}
+  '@remix-run/express@2.16.7':
+    resolution: {integrity: sha512-bvEsB+Dghd+97olvnANnXymqsVq5V4YN2YAlEcVA2f2mJxer2FQMXPP8yQsqnOHOjIkPRCKnB5I+jLpesCs0rA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       express: ^4.20.0
@@ -893,8 +893,8 @@ packages:
       typescript:
         optional: true
 
-  '@remix-run/node@2.16.6':
-    resolution: {integrity: sha512-agIR9duqTWAeYMUj2myuLCNdedMEhLUCKOfOb7IwC/o4cp0D2I6hXOQfJKQHevnui1dPUlxWhsz/rc69wQF0BA==}
+  '@remix-run/node@2.16.7':
+    resolution: {integrity: sha512-7NSK9WM8te9sqvrKkJi9OQEO/ga/Idyr1aBMY5KMMaZmb7DH/qjaIfI/4nEHZ127dPS1hzlS+Vev+qAT8XyjvA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: ^5.1.0
@@ -902,8 +902,8 @@ packages:
       typescript:
         optional: true
 
-  '@remix-run/react@2.16.6':
-    resolution: {integrity: sha512-9wrv1E6316ptN20U3wPLm3tRhUyv0AUh1OBxq/dGwEJOMp922aQw2HSYwzYBl00blrVnQVLz1hNfVLIUzBEFzw==}
+  '@remix-run/react@2.16.7':
+    resolution: {integrity: sha512-xEukrPCE/S0J09ekSwKU+UHyFdjDRmtfzeeIwboELSbAXpgzYMOW2jal6H6RonVkGg/8Zp1MjqIcqM80+dvQPQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0.0
@@ -917,13 +917,13 @@ packages:
     resolution: {integrity: sha512-O3rHJzAQKamUz1fvE0Qaw0xSFqsA/yafi2iqeE0pvdFtCO1viYx8QL6f3Ln/aCCTLxs68SLf0KPM9eSeM8yBnA==}
     engines: {node: '>=14.0.0'}
 
-  '@remix-run/serve@2.16.6':
-    resolution: {integrity: sha512-I19ZAe+jWPSKqSIq/o0KxSTxZ4Z6hOZEfFAXCeY3gsWpwnkNboHFcX5Baq7ydtCslX/3RXx8kZgjzttozyMAPw==}
+  '@remix-run/serve@2.16.7':
+    resolution: {integrity: sha512-Too9KpwN8yB1WMAFIEjpMq5YpMgrdip9WV9rrmL6Yw6kfKnGe5Jm8Kp+G2WCCLWb77/ENHEc11Cmzj7rxBfpDA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  '@remix-run/server-runtime@2.16.6':
-    resolution: {integrity: sha512-EAD21CDrrTvaC2FznMDcVza12DgUUdGkR1kSM75ZrIy9sJaWKpiTqBitKoIjw1K89IPCM7xZTAEvpDxIWitULg==}
+  '@remix-run/server-runtime@2.16.7':
+    resolution: {integrity: sha512-3aZZG8KBUQTenscOnV68AEwStRgx/rVvD8tkxwm92Zx7QMO/UZhhuNcZE9bvD5zTpp2sLwjwCTUK1eEJgTpKfg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: ^5.1.0
@@ -1908,6 +1908,9 @@ packages:
 
   es-module-lexer@1.6.0:
     resolution: {integrity: sha512-qqnD1yMU6tk/jnaMosogGySTZP8YtUgAffA9nMN+E/rjxcfRQ6IEk7IiozUjgxKoFHBGjTLnrHB/YC45r/59EQ==}
+
+  es-module-lexer@1.7.0:
+    resolution: {integrity: sha512-jEQoCwk8hyb2AZziIOLhDqpm5+2ww5uIE6lkO/6jcOCusfk6LhMHpXXfBLXTZ7Ydyt0j4VoUQv6uGNYbdW+kBA==}
 
   es-object-atoms@1.0.0:
     resolution: {integrity: sha512-MZ4iQ6JwHOBQjahnjwaC1ZtIBH+2ohjamzAO3oaHcXYup7qxjF2fixyH+Q71voWHeOkI2q/TnJao/KfXYIZWbw==}
@@ -4171,8 +4174,8 @@ packages:
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
 
-  vite-node@3.0.0-beta.2:
-    resolution: {integrity: sha512-ofTf6cfRdL30Wbl9n/BX81EyIR5s4PReLmSurrxQ+koLaWUNOEo8E0lCM53OJkb8vpa2URM2nSrxZsIFyvY1rg==}
+  vite-node@3.1.4:
+    resolution: {integrity: sha512-6enNwYnpyDo4hEgytbmc6mYWHXDHYEn0D1/rw4Q+tnHUGtKTJsn8T1YkX6Q18wI5LCrS8CTYlBaiCqxOy2kvUA==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
@@ -4954,7 +4957,7 @@ snapshots:
     dependencies:
       playwright: 1.52.0
 
-  '@remix-run/dev@2.16.6(@remix-run/react@2.16.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3))(@remix-run/serve@2.16.6(typescript@5.8.3))(@types/node@22.15.19)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(yaml@2.7.1))(yaml@2.7.1)':
+  '@remix-run/dev@2.16.7(@remix-run/react@2.16.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3))(@remix-run/serve@2.16.7(typescript@5.8.3))(@types/node@22.15.19)(typescript@5.8.3)(vite@6.3.5(@types/node@22.15.19)(yaml@2.7.1))(yaml@2.7.1)':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/generator': 7.27.0
@@ -4966,10 +4969,10 @@ snapshots:
       '@babel/types': 7.27.0
       '@mdx-js/mdx': 2.3.0
       '@npmcli/package-json': 4.0.1
-      '@remix-run/node': 2.16.6(typescript@5.8.3)
-      '@remix-run/react': 2.16.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+      '@remix-run/node': 2.16.7(typescript@5.8.3)
+      '@remix-run/react': 2.16.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@remix-run/router': 1.23.0
-      '@remix-run/server-runtime': 2.16.6(typescript@5.8.3)
+      '@remix-run/server-runtime': 2.16.7(typescript@5.8.3)
       '@types/mdx': 2.0.13
       '@vanilla-extract/integration': 6.5.0(@types/node@22.15.19)
       arg: 5.0.2
@@ -5011,10 +5014,10 @@ snapshots:
       tar-fs: 2.1.2
       tsconfig-paths: 4.2.0
       valibot: 0.41.0(typescript@5.8.3)
-      vite-node: 3.0.0-beta.2(@types/node@22.15.19)(yaml@2.7.1)
+      vite-node: 3.1.4(@types/node@22.15.19)(yaml@2.7.1)
       ws: 7.5.10
     optionalDependencies:
-      '@remix-run/serve': 2.16.6(typescript@5.8.3)
+      '@remix-run/serve': 2.16.7(typescript@5.8.3)
       typescript: 5.8.3
       vite: 6.3.5(@types/node@22.15.19)(yaml@2.7.1)
     transitivePeerDependencies:
@@ -5036,23 +5039,23 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@remix-run/express@2.16.6(express@4.21.2)(typescript@5.8.3)':
+  '@remix-run/express@2.16.7(express@4.21.2)(typescript@5.8.3)':
     dependencies:
-      '@remix-run/node': 2.16.6(typescript@5.8.3)
+      '@remix-run/node': 2.16.7(typescript@5.8.3)
       express: 4.21.2
     optionalDependencies:
       typescript: 5.8.3
 
-  '@remix-run/express@2.16.6(express@5.1.0)(typescript@5.8.3)':
+  '@remix-run/express@2.16.7(express@5.1.0)(typescript@5.8.3)':
     dependencies:
-      '@remix-run/node': 2.16.6(typescript@5.8.3)
+      '@remix-run/node': 2.16.7(typescript@5.8.3)
       express: 5.1.0
     optionalDependencies:
       typescript: 5.8.3
 
-  '@remix-run/node@2.16.6(typescript@5.8.3)':
+  '@remix-run/node@2.16.7(typescript@5.8.3)':
     dependencies:
-      '@remix-run/server-runtime': 2.16.6(typescript@5.8.3)
+      '@remix-run/server-runtime': 2.16.7(typescript@5.8.3)
       '@remix-run/web-fetch': 4.4.2
       '@web3-storage/multipart-parser': 1.0.0
       cookie-signature: 1.2.2
@@ -5062,10 +5065,10 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.3
 
-  '@remix-run/react@2.16.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)':
+  '@remix-run/react@2.16.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)':
     dependencies:
       '@remix-run/router': 1.23.0
-      '@remix-run/server-runtime': 2.16.6(typescript@5.8.3)
+      '@remix-run/server-runtime': 2.16.7(typescript@5.8.3)
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
       react-router: 6.30.0(react@19.1.0)
@@ -5076,10 +5079,10 @@ snapshots:
 
   '@remix-run/router@1.23.0': {}
 
-  '@remix-run/serve@2.16.6(typescript@5.8.3)':
+  '@remix-run/serve@2.16.7(typescript@5.8.3)':
     dependencies:
-      '@remix-run/express': 2.16.6(express@4.21.2)(typescript@5.8.3)
-      '@remix-run/node': 2.16.6(typescript@5.8.3)
+      '@remix-run/express': 2.16.7(express@4.21.2)(typescript@5.8.3)
+      '@remix-run/node': 2.16.7(typescript@5.8.3)
       chokidar: 3.6.0
       compression: 1.8.0
       express: 4.21.2
@@ -5090,7 +5093,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@remix-run/server-runtime@2.16.6(typescript@5.8.3)':
+  '@remix-run/server-runtime@2.16.7(typescript@5.8.3)':
     dependencies:
       '@remix-run/router': 1.23.0
       '@types/cookie': 0.6.0
@@ -5317,7 +5320,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 8.32.1
       '@typescript-eslint/visitor-keys': 8.32.1
-      debug: 4.4.0
+      debug: 4.4.1
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
@@ -6235,6 +6238,8 @@ snapshots:
       safe-array-concat: 1.1.3
 
   es-module-lexer@1.6.0: {}
+
+  es-module-lexer@1.7.0: {}
 
   es-object-atoms@1.0.0:
     dependencies:
@@ -7691,7 +7696,7 @@ snapshots:
   micromark@3.2.0:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.0
+      debug: 4.4.1
       decode-named-character-reference: 1.1.0
       micromark-core-commonmark: 1.1.0
       micromark-factory-space: 1.1.0
@@ -9108,12 +9113,12 @@ snapshots:
       - supports-color
       - terser
 
-  vite-node@3.0.0-beta.2(@types/node@22.15.19)(yaml@2.7.1):
+  vite-node@3.1.4(@types/node@22.15.19)(yaml@2.7.1):
     dependencies:
       cac: 6.7.14
-      debug: 4.4.0
-      es-module-lexer: 1.6.0
-      pathe: 1.1.2
+      debug: 4.4.1
+      es-module-lexer: 1.7.0
+      pathe: 2.0.3
       vite: 6.3.5(@types/node@22.15.19)(yaml@2.7.1)
     transitivePeerDependencies:
       - '@types/node'
