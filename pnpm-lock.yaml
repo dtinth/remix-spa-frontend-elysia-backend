@@ -75,7 +75,7 @@ importers:
         version: 8.57.1
       eslint-config-prettier:
         specifier: ^10.0.0
-        version: 10.1.5(eslint@8.57.1)
+        version: 10.1.8(eslint@8.57.1)
       eslint-import-resolver-typescript:
         specifier: ^4.0.0
         version: 4.4.4(eslint-plugin-import@2.32.0)(eslint@8.57.1)
@@ -145,7 +145,7 @@ importers:
         version: 8.57.1
       eslint-config-prettier:
         specifier: ^10.0.0
-        version: 10.1.5(eslint@8.57.1)
+        version: 10.1.8(eslint@8.57.1)
       eslint-import-resolver-typescript:
         specifier: ^4.0.0
         version: 4.4.4(eslint-plugin-import@2.32.0)(eslint@8.57.1)
@@ -2009,8 +2009,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-prettier@10.1.5:
-    resolution: {integrity: sha512-zc1UmCpNltmVY34vuLRV61r1K27sWuX39E+uyUnY8xS2Bex88VV9cugG+UZbRSRGtGyFboj+D8JODyme1plMpw==}
+  eslint-config-prettier@10.1.8:
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -6533,7 +6533,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-prettier@10.1.5(eslint@8.57.1):
+  eslint-config-prettier@10.1.8(eslint@8.57.1):
     dependencies:
       eslint: 8.57.1
 
