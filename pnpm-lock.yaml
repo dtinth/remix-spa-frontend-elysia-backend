@@ -50,7 +50,7 @@ importers:
         version: 5.1.0
       isbot:
         specifier: ^5.1.2
-        version: 5.1.29
+        version: 5.1.30
       react:
         specifier: ^19.0.0
         version: 19.1.1
@@ -117,7 +117,7 @@ importers:
         version: 2.17.0(typescript@5.9.2)
       isbot:
         specifier: ^5.1.2
-        version: 5.1.29
+        version: 5.1.30
       react:
         specifier: ^19.0.0
         version: 19.1.1
@@ -2740,8 +2740,8 @@ packages:
   isarray@2.0.5:
     resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
 
-  isbot@5.1.29:
-    resolution: {integrity: sha512-DelDWWoa3mBoyWTq3wjp+GIWx/yZdN7zLUE7NFhKjAiJ+uJVRkbLlwykdduCE4sPUUy8mlTYTmdhBUYu91F+sw==}
+  isbot@5.1.30:
+    resolution: {integrity: sha512-3wVJEonAns1OETX83uWsk5IAne2S5zfDcntD2hbtU23LelSqNXzXs9zKjMPOLMzroCgIjCfjYAEHrd2D6FOkiA==}
     engines: {node: '>=18'}
 
   isexe@2.0.0:
@@ -7410,7 +7410,7 @@ snapshots:
 
   isarray@2.0.5: {}
 
-  isbot@5.1.29: {}
+  isbot@5.1.30: {}
 
   isexe@2.0.0: {}
 
