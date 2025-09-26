@@ -63,10 +63,10 @@ importers:
         version: 2.17.1(@remix-run/react@2.17.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.2))(@remix-run/serve@2.17.1(typescript@5.9.2))(@types/node@24.5.2)(typescript@5.9.2)(vite@7.1.7(@types/node@24.5.2)(yaml@2.8.1))(yaml@2.8.1)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.1.13
+        version: 19.1.14
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.1.9(@types/react@19.1.13)
+        version: 19.1.9(@types/react@19.1.14)
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.0.0
         version: 8.44.1(@typescript-eslint/parser@7.7.0(eslint@8.57.1)(typescript@5.9.2))(eslint@8.57.1)(typescript@5.9.2)
@@ -133,10 +133,10 @@ importers:
         version: 2.17.1(@remix-run/react@2.17.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.2))(@remix-run/serve@2.17.1(typescript@5.9.2))(@types/node@24.5.2)(typescript@5.9.2)(vite@7.1.7(@types/node@24.5.2)(yaml@2.8.1))(yaml@2.8.1)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.1.13
+        version: 19.1.14
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.1.9(@types/react@19.1.13)
+        version: 19.1.9(@types/react@19.1.14)
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.0.0
         version: 8.44.1(@typescript-eslint/parser@7.7.0(eslint@8.57.1)(typescript@5.9.2))(eslint@8.57.1)(typescript@5.9.2)
@@ -1111,8 +1111,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.13':
-    resolution: {integrity: sha512-hHkbU/eoO3EG5/MZkuFSKmYqPbSVk5byPFa3e7y/8TybHiLMACgI8seVYlicwk7H5K/rI2px9xrQp/C+AUDTiQ==}
+  '@types/react@19.1.14':
+    resolution: {integrity: sha512-ukd93VGzaNPMAUPy0gRDSC57UuQbnH9Kussp7HBjM06YFi9uZTFhOvMSO2OKqXm1rSgzOE+pVx1k1PYHGwlc8Q==}
 
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
@@ -5315,11 +5315,11 @@ snapshots:
     dependencies:
       undici-types: 7.12.0
 
-  '@types/react-dom@19.1.9(@types/react@19.1.13)':
+  '@types/react-dom@19.1.9(@types/react@19.1.14)':
     dependencies:
-      '@types/react': 19.1.13
+      '@types/react': 19.1.14
 
-  '@types/react@19.1.13':
+  '@types/react@19.1.14':
     dependencies:
       csstype: 3.1.3
 
