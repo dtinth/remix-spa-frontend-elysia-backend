@@ -29,7 +29,7 @@ importers:
     dependencies:
       '@elysiajs/cors':
         specifier: 1.4.0
-        version: 1.4.0(elysia@1.1.27(@sinclair/typebox@0.32.20)(typescript@5.9.2))
+        version: 1.4.0(elysia@1.4.8(@sinclair/typebox@0.32.20)(exact-mirror@0.2.2(@sinclair/typebox@0.32.20))(openapi-types@12.1.3)(typescript@5.9.2))
       '@remix-run/express':
         specifier: ^2.8.1
         version: 2.17.1(express@5.1.0)(typescript@5.9.2)
@@ -43,8 +43,8 @@ importers:
         specifier: ^2.8.1
         version: 2.17.1(typescript@5.9.2)
       elysia:
-        specifier: 1.1.27
-        version: 1.1.27(@sinclair/typebox@0.32.20)(typescript@5.9.2)
+        specifier: 1.4.8
+        version: 1.4.8(@sinclair/typebox@0.32.20)(exact-mirror@0.2.2(@sinclair/typebox@0.32.20))(openapi-types@12.1.3)(typescript@5.9.2)
       express:
         specifier: ^5.0.0
         version: 5.1.0
@@ -105,7 +105,7 @@ importers:
     dependencies:
       '@elysiajs/eden':
         specifier: 1.2.0
-        version: 1.2.0(elysia@1.1.27(@sinclair/typebox@0.32.20)(typescript@5.9.2))
+        version: 1.2.0(elysia@1.4.8(@sinclair/typebox@0.32.20)(exact-mirror@0.2.2(@sinclair/typebox@0.32.20))(openapi-types@12.1.3)(typescript@5.9.2))
       '@remix-run/node':
         specifier: ^2.8.1
         version: 2.17.1(typescript@5.9.2)
@@ -1713,8 +1713,8 @@ packages:
     resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
     engines: {node: '>= 0.6'}
 
-  cookie@1.0.1:
-    resolution: {integrity: sha512-Xd8lFX4LM9QEEwxQpF9J9NTUh8pmdJO0cyRJhFiDoLTk2eH8FXlRv2IFGYVadZpqI3j8fhNrSdKCeYPxiAhLXw==}
+  cookie@1.0.2:
+    resolution: {integrity: sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==}
     engines: {node: '>=18'}
 
   core-util-is@1.0.3:
@@ -1907,14 +1907,16 @@ packages:
   electron-to-chromium@1.5.221:
     resolution: {integrity: sha512-/1hFJ39wkW01ogqSyYoA4goOXOtMRy6B+yvA1u42nnsEGtHzIzmk93aPISumVQeblj47JUHLC9coCjUxb1EvtQ==}
 
-  elysia@1.1.27:
-    resolution: {integrity: sha512-TD8aGfFSA5KfoIOXZszFQHngsV3XrQwsq7WMRMOT/rva/eNc1QobqVXu1ISgEFal9mp1JMt7WK6QAUV+P17xfA==}
+  elysia@1.4.8:
+    resolution: {integrity: sha512-ys3OSLZok9eRlOPOJBOAJy+5YVxRCLaq2FMMs2naCg6klW3kNu5NOUwKMAJJ9lzUgOfCe42e3d3lrlbVSdRlaA==}
     peerDependencies:
-      '@sinclair/typebox': '>= 0.32.0'
+      '@sinclair/typebox': '>= 0.34.0 < 1'
+      exact-mirror: '>= 0.0.9'
+      file-type: '>= 20.0.0'
       openapi-types: '>= 12.0.0'
       typescript: '>= 5.0.0'
     peerDependenciesMeta:
-      openapi-types:
+      file-type:
         optional: true
       typescript:
         optional: true
@@ -2183,6 +2185,14 @@ packages:
   event-target-shim@5.0.1:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
     engines: {node: '>=6'}
+
+  exact-mirror@0.2.2:
+    resolution: {integrity: sha512-CrGe+4QzHZlnrXZVlo/WbUZ4qQZq8C0uATQVGVgXIrNXgHDBBNFD1VRfssRA2C9t3RYvh3MadZSdg2Wy7HBoQA==}
+    peerDependencies:
+      '@sinclair/typebox': ^0.34.15
+    peerDependenciesMeta:
+      '@sinclair/typebox':
+        optional: true
 
   execa@5.1.1:
     resolution: {integrity: sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==}
@@ -3265,6 +3275,9 @@ packages:
   onetime@5.1.2:
     resolution: {integrity: sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==}
     engines: {node: '>=6'}
+
+  openapi-types@12.1.3:
+    resolution: {integrity: sha512-N4YtSYJqghVu4iek2ZUvcN/0aqH1kRDuNqzcycDxhOUpg7GdvLa2F3DgS6yBNhInhv2r/6I0Flkn7CqL8+nIcw==}
 
   optionator@0.9.4:
     resolution: {integrity: sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==}
@@ -4634,13 +4647,13 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@elysiajs/cors@1.4.0(elysia@1.1.27(@sinclair/typebox@0.32.20)(typescript@5.9.2))':
+  '@elysiajs/cors@1.4.0(elysia@1.4.8(@sinclair/typebox@0.32.20)(exact-mirror@0.2.2(@sinclair/typebox@0.32.20))(openapi-types@12.1.3)(typescript@5.9.2))':
     dependencies:
-      elysia: 1.1.27(@sinclair/typebox@0.32.20)(typescript@5.9.2)
+      elysia: 1.4.8(@sinclair/typebox@0.32.20)(exact-mirror@0.2.2(@sinclair/typebox@0.32.20))(openapi-types@12.1.3)(typescript@5.9.2)
 
-  '@elysiajs/eden@1.2.0(elysia@1.1.27(@sinclair/typebox@0.32.20)(typescript@5.9.2))':
+  '@elysiajs/eden@1.2.0(elysia@1.4.8(@sinclair/typebox@0.32.20)(exact-mirror@0.2.2(@sinclair/typebox@0.32.20))(openapi-types@12.1.3)(typescript@5.9.2))':
     dependencies:
-      elysia: 1.1.27(@sinclair/typebox@0.32.20)(typescript@5.9.2)
+      elysia: 1.4.8(@sinclair/typebox@0.32.20)(exact-mirror@0.2.2(@sinclair/typebox@0.32.20))(openapi-types@12.1.3)(typescript@5.9.2)
 
   '@emnapi/core@1.4.3':
     dependencies:
@@ -6033,7 +6046,7 @@ snapshots:
 
   cookie@0.7.2: {}
 
-  cookie@1.0.1: {}
+  cookie@1.0.2: {}
 
   core-util-is@1.0.3: {}
 
@@ -6190,11 +6203,13 @@ snapshots:
 
   electron-to-chromium@1.5.221: {}
 
-  elysia@1.1.27(@sinclair/typebox@0.32.20)(typescript@5.9.2):
+  elysia@1.4.8(@sinclair/typebox@0.32.20)(exact-mirror@0.2.2(@sinclair/typebox@0.32.20))(openapi-types@12.1.3)(typescript@5.9.2):
     dependencies:
       '@sinclair/typebox': 0.32.20
-      cookie: 1.0.1
+      cookie: 1.0.2
+      exact-mirror: 0.2.2(@sinclair/typebox@0.32.20)
       fast-decode-uri-component: 1.0.1
+      openapi-types: 12.1.3
     optionalDependencies:
       typescript: 5.9.2
 
@@ -6759,6 +6774,10 @@ snapshots:
       require-like: 0.1.2
 
   event-target-shim@5.0.1: {}
+
+  exact-mirror@0.2.2(@sinclair/typebox@0.32.20):
+    optionalDependencies:
+      '@sinclair/typebox': 0.32.20
 
   execa@5.1.1:
     dependencies:
@@ -8090,6 +8109,8 @@ snapshots:
   onetime@5.1.2:
     dependencies:
       mimic-fn: 2.1.0
+
+  openapi-types@12.1.3: {}
 
   optionator@0.9.4:
     dependencies:
