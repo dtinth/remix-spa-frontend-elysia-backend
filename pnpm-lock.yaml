@@ -90,7 +90,7 @@ importers:
         version: 7.37.5(eslint@8.57.1)
       eslint-plugin-react-hooks:
         specifier: ^7.0.0
-        version: 7.1.0(eslint@8.57.1)
+        version: 7.1.1(eslint@8.57.1)
       typescript:
         specifier: ^5.4.2
         version: 5.9.3
@@ -160,7 +160,7 @@ importers:
         version: 7.37.5(eslint@8.57.1)
       eslint-plugin-react-hooks:
         specifier: ^7.0.0
-        version: 7.1.0(eslint@8.57.1)
+        version: 7.1.1(eslint@8.57.1)
       typescript:
         specifier: ^5.4.2
         version: 5.9.3
@@ -2119,8 +2119,8 @@ packages:
   electron-to-chromium@1.5.267:
     resolution: {integrity: sha512-0Drusm6MVRXSOJpGbaSVgcQsuB4hEkMpHXaVstcPmhu5LIedxs1xNK/nIxmQIU/RPC0+1/o0AVZfBTkTNJOdUw==}
 
-  electron-to-chromium@1.5.339:
-    resolution: {integrity: sha512-Is+0BBHJ4NrdpAYiperrmp53pLywG/yV/6lIMTAnhxvzj/Cmn5Q/ogSHC6AKe7X+8kPLxxFk0cs5oc/3j/fxIg==}
+  electron-to-chromium@1.5.340:
+    resolution: {integrity: sha512-908qahOGocRMinT2nM3ajCEM99H4iPdv84eagPP3FfZy/1ZGeOy2CZYzjhms81ckOPCXPlW7LkY4XpxD8r1DrA==}
 
   elysia@1.1.27:
     resolution: {integrity: sha512-TD8aGfFSA5KfoIOXZszFQHngsV3XrQwsq7WMRMOT/rva/eNc1QobqVXu1ISgEFal9mp1JMt7WK6QAUV+P17xfA==}
@@ -2308,8 +2308,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-react-hooks@7.1.0:
-    resolution: {integrity: sha512-LDicyhrRFrIaheDYryeM2W8gWyZXnAs4zIr2WVPiOSeTmIu2RjR4x/9N0xLaRWZ+9hssBDGo3AadcohuzAvSvg==}
+  eslint-plugin-react-hooks@7.1.1:
+    resolution: {integrity: sha512-f2I7Gw6JbvCexzIInuSbZpfdQ44D7iqdWX01FKLvrPgqxoE7oMj8clOfto8U6vYiz4yd5oKu39rRSVOe1zRu0g==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0 || ^10.0.0
@@ -6502,7 +6502,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.19
       caniuse-lite: 1.0.30001788
-      electron-to-chromium: 1.5.339
+      electron-to-chromium: 1.5.340
       node-releases: 2.0.37
       update-browserslist-db: 1.2.3(browserslist@4.28.2)
 
@@ -6850,7 +6850,7 @@ snapshots:
 
   electron-to-chromium@1.5.267: {}
 
-  electron-to-chromium@1.5.339: {}
+  electron-to-chromium@1.5.340: {}
 
   elysia@1.1.27(@sinclair/typebox@0.32.20)(typescript@5.9.3):
     dependencies:
@@ -7282,7 +7282,7 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-react-hooks@7.1.0(eslint@8.57.1):
+  eslint-plugin-react-hooks@7.1.1(eslint@8.57.1):
     dependencies:
       '@babel/core': 7.29.0
       '@babel/parser': 7.29.2
