@@ -17,7 +17,7 @@ importers:
         version: 1.59.1
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.2
+        version: 24.12.3
       prettier:
         specifier: ^3.2.5
         version: 3.8.3
@@ -60,7 +60,7 @@ importers:
     devDependencies:
       '@remix-run/dev':
         specifier: ^2.8.1
-        version: 2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.9.3))(@remix-run/serve@2.17.4(typescript@5.9.3))(@types/node@25.5.2)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.11(@types/node@25.5.2)(esbuild@0.17.6)(yaml@2.8.2))(yaml@2.8.2)
+        version: 2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.9.3))(@remix-run/serve@2.17.4(typescript@5.9.3))(@types/node@25.6.2)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.11(@types/node@25.6.2)(esbuild@0.17.6)(yaml@2.8.2))(yaml@2.8.2)
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.14
@@ -96,10 +96,10 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^8.0.0
-        version: 8.0.11(@types/node@25.5.2)(esbuild@0.17.6)(yaml@2.8.2)
+        version: 8.0.11(@types/node@25.6.2)(esbuild@0.17.6)(yaml@2.8.2)
       vite-tsconfig-paths:
         specifier: ^6.0.0
-        version: 6.1.1(typescript@5.9.3)(vite@8.0.11(@types/node@25.5.2)(esbuild@0.17.6)(yaml@2.8.2))
+        version: 6.1.1(typescript@5.9.3)(vite@8.0.11(@types/node@25.6.2)(esbuild@0.17.6)(yaml@2.8.2))
 
   frontend:
     dependencies:
@@ -130,7 +130,7 @@ importers:
     devDependencies:
       '@remix-run/dev':
         specifier: ^2.8.1
-        version: 2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.9.3))(@remix-run/serve@2.17.4(typescript@5.9.3))(@types/node@25.5.2)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.11(@types/node@25.5.2)(esbuild@0.27.2)(yaml@2.8.2))(yaml@2.8.2)
+        version: 2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.9.3))(@remix-run/serve@2.17.4(typescript@5.9.3))(@types/node@25.6.2)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.11(@types/node@25.6.2)(esbuild@0.27.2)(yaml@2.8.2))(yaml@2.8.2)
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.14
@@ -166,10 +166,10 @@ importers:
         version: 5.9.3
       vite:
         specifier: ^8.0.0
-        version: 8.0.11(@types/node@25.5.2)(esbuild@0.27.2)(yaml@2.8.2)
+        version: 8.0.11(@types/node@25.6.2)(esbuild@0.27.2)(yaml@2.8.2)
       vite-tsconfig-paths:
         specifier: ^6.0.0
-        version: 6.1.1(typescript@5.9.3)(vite@8.0.11(@types/node@25.5.2)(esbuild@0.27.2)(yaml@2.8.2))
+        version: 6.1.1(typescript@5.9.3)(vite@8.0.11(@types/node@25.6.2)(esbuild@0.27.2)(yaml@2.8.2))
 
 packages:
 
@@ -1289,11 +1289,11 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@24.12.2':
-    resolution: {integrity: sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==}
+  '@types/node@24.12.3':
+    resolution: {integrity: sha512-8oljBDGun9cIsZRJR6fkihn0TSXJI0UDOOhncYaERq6M0JMDoPLxyscwruJcb4GKS6dvK/d8xebYBg27h/duaQ==}
 
-  '@types/node@25.5.2':
-    resolution: {integrity: sha512-tO4ZIRKNC+MDWV4qKVZe3Ql/woTnmHDr5JD8UI5hn2pwBrHEwOEMZK7WlNb5RKB6EoJ02gwmQS9OrjuFnZYdpg==}
+  '@types/node@25.6.2':
+    resolution: {integrity: sha512-sokuT28dxf9JT5Kady1fsXOvI4HVpjZa95NKT5y9PNTIrs2AsobR4GFAA90ZG8M+nxVRLysCXsVj6eGC7Vbrlw==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -4479,8 +4479,8 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  undici-types@7.18.2:
-    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
+  undici-types@7.19.2:
+    resolution: {integrity: sha512-qYVnV5OEm2AW8cJMCpdV20CDyaN3g0AjDlOGf1OW4iaDEx8MwdtChUp4zu4H0VP3nDRF/8RKWH+IPp9uW0YGZg==}
 
   undici@6.23.0:
     resolution: {integrity: sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==}
@@ -5531,7 +5531,7 @@ snapshots:
     dependencies:
       playwright: 1.59.1
 
-  '@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.9.3))(@remix-run/serve@2.17.4(typescript@5.9.3))(@types/node@25.5.2)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.11(@types/node@25.5.2)(esbuild@0.17.6)(yaml@2.8.2))(yaml@2.8.2)':
+  '@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.9.3))(@remix-run/serve@2.17.4(typescript@5.9.3))(@types/node@25.6.2)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.11(@types/node@25.6.2)(esbuild@0.17.6)(yaml@2.8.2))(yaml@2.8.2)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/generator': 7.28.5
@@ -5548,7 +5548,7 @@ snapshots:
       '@remix-run/router': 1.23.2
       '@remix-run/server-runtime': 2.17.4(typescript@5.9.3)
       '@types/mdx': 2.0.13
-      '@vanilla-extract/integration': 6.5.0(@types/node@25.5.2)(lightningcss@1.32.0)
+      '@vanilla-extract/integration': 6.5.0(@types/node@25.6.2)(lightningcss@1.32.0)
       arg: 5.0.2
       cacache: 17.1.4
       chalk: 4.1.2
@@ -5588,12 +5588,12 @@ snapshots:
       tar-fs: 2.1.4
       tsconfig-paths: 4.2.0
       valibot: 1.2.0(typescript@5.9.3)
-      vite-node: 3.2.4(@types/node@25.5.2)(lightningcss@1.32.0)(yaml@2.8.2)
+      vite-node: 3.2.4(@types/node@25.6.2)(lightningcss@1.32.0)(yaml@2.8.2)
       ws: 7.5.10
     optionalDependencies:
       '@remix-run/serve': 2.17.4(typescript@5.9.3)
       typescript: 5.9.3
-      vite: 8.0.11(@types/node@25.5.2)(esbuild@0.17.6)(yaml@2.8.2)
+      vite: 8.0.11(@types/node@25.6.2)(esbuild@0.17.6)(yaml@2.8.2)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -5613,7 +5613,7 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.9.3))(@remix-run/serve@2.17.4(typescript@5.9.3))(@types/node@25.5.2)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.11(@types/node@25.5.2)(esbuild@0.27.2)(yaml@2.8.2))(yaml@2.8.2)':
+  '@remix-run/dev@2.17.4(@remix-run/react@2.17.4(react-dom@19.2.6(react@19.2.6))(react@19.2.6)(typescript@5.9.3))(@remix-run/serve@2.17.4(typescript@5.9.3))(@types/node@25.6.2)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.11(@types/node@25.6.2)(esbuild@0.27.2)(yaml@2.8.2))(yaml@2.8.2)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/generator': 7.28.5
@@ -5630,7 +5630,7 @@ snapshots:
       '@remix-run/router': 1.23.2
       '@remix-run/server-runtime': 2.17.4(typescript@5.9.3)
       '@types/mdx': 2.0.13
-      '@vanilla-extract/integration': 6.5.0(@types/node@25.5.2)(lightningcss@1.32.0)
+      '@vanilla-extract/integration': 6.5.0(@types/node@25.6.2)(lightningcss@1.32.0)
       arg: 5.0.2
       cacache: 17.1.4
       chalk: 4.1.2
@@ -5670,12 +5670,12 @@ snapshots:
       tar-fs: 2.1.4
       tsconfig-paths: 4.2.0
       valibot: 1.2.0(typescript@5.9.3)
-      vite-node: 3.2.4(@types/node@25.5.2)(lightningcss@1.32.0)(yaml@2.8.2)
+      vite-node: 3.2.4(@types/node@25.6.2)(lightningcss@1.32.0)(yaml@2.8.2)
       ws: 7.5.10
     optionalDependencies:
       '@remix-run/serve': 2.17.4(typescript@5.9.3)
       typescript: 5.9.3
-      vite: 8.0.11(@types/node@25.5.2)(esbuild@0.27.2)(yaml@2.8.2)
+      vite: 8.0.11(@types/node@25.6.2)(esbuild@0.27.2)(yaml@2.8.2)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -5959,13 +5959,13 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@24.12.2':
+  '@types/node@24.12.3':
     dependencies:
       undici-types: 7.16.0
 
-  '@types/node@25.5.2':
+  '@types/node@25.6.2':
     dependencies:
-      undici-types: 7.18.2
+      undici-types: 7.19.2
 
   '@types/react-dom@19.2.3(@types/react@19.2.14)':
     dependencies:
@@ -6180,7 +6180,7 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@vanilla-extract/integration@6.5.0(@types/node@25.5.2)(lightningcss@1.32.0)':
+  '@vanilla-extract/integration@6.5.0(@types/node@25.6.2)(lightningcss@1.32.0)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.28.5)
@@ -6193,8 +6193,8 @@ snapshots:
       lodash: 4.17.21
       mlly: 1.8.0
       outdent: 0.8.0
-      vite: 5.4.21(@types/node@25.5.2)(lightningcss@1.32.0)
-      vite-node: 1.6.1(@types/node@25.5.2)(lightningcss@1.32.0)
+      vite: 5.4.21(@types/node@25.6.2)(lightningcss@1.32.0)
+      vite-node: 1.6.1(@types/node@25.6.2)(lightningcss@1.32.0)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -7428,7 +7428,7 @@ snapshots:
 
   eval@0.1.8:
     dependencies:
-      '@types/node': 25.5.2
+      '@types/node': 25.6.2
       require-like: 0.1.2
 
   event-target-shim@5.0.1: {}
@@ -9912,7 +9912,7 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  undici-types@7.18.2: {}
+  undici-types@7.19.2: {}
 
   undici@6.23.0: {}
 
@@ -10061,13 +10061,13 @@ snapshots:
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
 
-  vite-node@1.6.1(@types/node@25.5.2)(lightningcss@1.32.0):
+  vite-node@1.6.1(@types/node@25.6.2)(lightningcss@1.32.0):
     dependencies:
       cac: 6.7.14
       debug: 4.4.3
       pathe: 1.1.2
       picocolors: 1.1.1
-      vite: 5.4.21(@types/node@25.5.2)(lightningcss@1.32.0)
+      vite: 5.4.21(@types/node@25.6.2)(lightningcss@1.32.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -10079,13 +10079,13 @@ snapshots:
       - supports-color
       - terser
 
-  vite-node@3.2.4(@types/node@25.5.2)(lightningcss@1.32.0)(yaml@2.8.2):
+  vite-node@3.2.4(@types/node@25.6.2)(lightningcss@1.32.0)(yaml@2.8.2):
     dependencies:
       cac: 6.7.14
       debug: 4.4.3
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 7.3.3(@types/node@25.5.2)(lightningcss@1.32.0)(yaml@2.8.2)
+      vite: 7.3.3(@types/node@25.6.2)(lightningcss@1.32.0)(yaml@2.8.2)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -10100,37 +10100,37 @@ snapshots:
       - tsx
       - yaml
 
-  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@8.0.11(@types/node@25.5.2)(esbuild@0.17.6)(yaml@2.8.2)):
+  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@8.0.11(@types/node@25.6.2)(esbuild@0.17.6)(yaml@2.8.2)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
-      vite: 8.0.11(@types/node@25.5.2)(esbuild@0.17.6)(yaml@2.8.2)
+      vite: 8.0.11(@types/node@25.6.2)(esbuild@0.17.6)(yaml@2.8.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@8.0.11(@types/node@25.5.2)(esbuild@0.27.2)(yaml@2.8.2)):
+  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@8.0.11(@types/node@25.6.2)(esbuild@0.27.2)(yaml@2.8.2)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.6(typescript@5.9.3)
-      vite: 8.0.11(@types/node@25.5.2)(esbuild@0.27.2)(yaml@2.8.2)
+      vite: 8.0.11(@types/node@25.6.2)(esbuild@0.27.2)(yaml@2.8.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@5.4.21(@types/node@25.5.2)(lightningcss@1.32.0):
+  vite@5.4.21(@types/node@25.6.2)(lightningcss@1.32.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.6
       rollup: 4.55.1
     optionalDependencies:
-      '@types/node': 25.5.2
+      '@types/node': 25.6.2
       fsevents: 2.3.3
       lightningcss: 1.32.0
 
-  vite@7.3.3(@types/node@25.5.2)(lightningcss@1.32.0)(yaml@2.8.2):
+  vite@7.3.3(@types/node@25.6.2)(lightningcss@1.32.0)(yaml@2.8.2):
     dependencies:
       esbuild: 0.27.2
       fdir: 6.5.0(picomatch@4.0.4)
@@ -10139,12 +10139,12 @@ snapshots:
       rollup: 4.55.1
       tinyglobby: 0.2.16
     optionalDependencies:
-      '@types/node': 25.5.2
+      '@types/node': 25.6.2
       fsevents: 2.3.3
       lightningcss: 1.32.0
       yaml: 2.8.2
 
-  vite@8.0.11(@types/node@25.5.2)(esbuild@0.17.6)(yaml@2.8.2):
+  vite@8.0.11(@types/node@25.6.2)(esbuild@0.17.6)(yaml@2.8.2):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
@@ -10152,12 +10152,12 @@ snapshots:
       rolldown: 1.0.0-rc.18
       tinyglobby: 0.2.16
     optionalDependencies:
-      '@types/node': 25.5.2
+      '@types/node': 25.6.2
       esbuild: 0.17.6
       fsevents: 2.3.3
       yaml: 2.8.2
 
-  vite@8.0.11(@types/node@25.5.2)(esbuild@0.27.2)(yaml@2.8.2):
+  vite@8.0.11(@types/node@25.6.2)(esbuild@0.27.2)(yaml@2.8.2):
     dependencies:
       lightningcss: 1.32.0
       picomatch: 4.0.4
@@ -10165,7 +10165,7 @@ snapshots:
       rolldown: 1.0.0-rc.18
       tinyglobby: 0.2.16
     optionalDependencies:
-      '@types/node': 25.5.2
+      '@types/node': 25.6.2
       esbuild: 0.27.2
       fsevents: 2.3.3
       yaml: 2.8.2
