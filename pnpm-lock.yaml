@@ -63,10 +63,10 @@ importers:
         version: 2.17.5(@remix-run/react@2.17.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@5.9.3))(@remix-run/serve@2.17.5(typescript@5.9.3))(@types/node@25.9.1)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.16(@types/node@25.9.1)(esbuild@0.17.6)(yaml@2.9.0))(yaml@2.9.0)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.16
+        version: 19.2.17
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.2.3(@types/react@19.2.16)
+        version: 19.2.3(@types/react@19.2.17)
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.0.0
         version: 8.60.1(@typescript-eslint/parser@7.7.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)
@@ -133,10 +133,10 @@ importers:
         version: 2.17.5(@remix-run/react@2.17.5(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(typescript@5.9.3))(@remix-run/serve@2.17.5(typescript@5.9.3))(@types/node@25.9.1)(lightningcss@1.32.0)(typescript@5.9.3)(vite@8.0.16(@types/node@25.9.1)(esbuild@0.27.7)(yaml@2.9.0))(yaml@2.9.0)
       '@types/react':
         specifier: ^19.0.0
-        version: 19.2.16
+        version: 19.2.17
       '@types/react-dom':
         specifier: ^19.0.0
-        version: 19.2.3(@types/react@19.2.16)
+        version: 19.2.3(@types/react@19.2.17)
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.0.0
         version: 8.60.1(@typescript-eslint/parser@7.7.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)
@@ -1282,8 +1282,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.16':
-    resolution: {integrity: sha512-esJiCAnl0kfpNdE69f3So4WJUXy95dLZydX0KwK46riIHDzHM7O9Vtf9xCHW0PXIqvgqNrswl522kA/5yx+F4w==}
+  '@types/react@19.2.17':
+    resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==}
 
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
@@ -5899,11 +5899,11 @@ snapshots:
     dependencies:
       undici-types: 7.24.6
 
-  '@types/react-dom@19.2.3(@types/react@19.2.16)':
+  '@types/react-dom@19.2.3(@types/react@19.2.17)':
     dependencies:
-      '@types/react': 19.2.16
+      '@types/react': 19.2.17
 
-  '@types/react@19.2.16':
+  '@types/react@19.2.17':
     dependencies:
       csstype: 3.2.3
 
